@@ -284,7 +284,7 @@ S.No,actual,pred,alive,plod,name,title,male,culture,dateOfBirth,DateoFdeath,moth
 283,0,0,0.064,0.936,Aegon IV Targaryen,,1,,,,,,Daeron II Targaryen,,,0,0,0,0,0,,,0,,0,0,,15,1,1,0.675585284280936,0
 284,1,0,0.053,0.947,Aegon Targaryen (son of Baelon),Prince,1,Valyrian,,,,,,House Targaryen,,0,0,0,0,0,,,,,0,1,,0,0,0,0,1
 285,0,0,0.003,0.997,Aegon III Targaryen,,1,Valyrian,,,Rhaenyra Targaryen,Daemon Targaryen,Daeron I Targaryen,,,0,0,0,0,0,1,0,0,,0,0,,8,1,1,0.625418060200668,0
-286,0,0,0.001,0.999,Aegon Targaryen (son of Jaehaerys I),Prince,0,Valyrian,50,,,,,House Targaryen,,0,0,0,0,0,,,,,0,1,100,0,0,0,0,0
+286,0,0,0.001,0.999,Aegon Targaryen (son of Jaehaerys I),Prince,1,Valyrian,50,,,,,House Targaryen,,0,0,0,0,0,,,,,0,1,100,0,0,0,0,0
 287,0,0,0.057,0.943,Aegon Targaryen (son of Aenys I),Prince,1,Valyrian,26,43,,,,House Targaryen,Rhaena Targaryen,0,0,0,0,0,,,,1,1,1,17,0,0,0,0,0
 288,0,0,0.003,0.997,Aegon Targaryen (son of Rhaegar),,1,Valyrian,281,283,,,,House Targaryen,,0,0,0,0,0,,,,,0,0,2,0,0,0,0,0
 289,1,1,0.62,0.38,Aemon Costayne,,1,,,,,,,House Costayne,,0,0,1,0,0,,,,,0,0,,0,0,0,0.0100334448160535,1
