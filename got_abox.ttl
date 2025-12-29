@@ -84,6 +84,7 @@ got:Aegon_Frey_son_of_Stevron a got:Male,
 
 got:Aegon_II_Targaryen a got:Male,
         got:Person ;
+    got:hasDragon got:Sunfyre ;
     got:hasFather got:Viserys_I_Targaryen ;
     got:hasMother got:Alicent_Hightower ;
     got:hasName "Aegon II Targaryen"^^xsd:string ;
@@ -188,6 +189,7 @@ got:Aemond_Targaryen a got:Male,
         got:Person ;
     got:age 20 ;
     got:belongsToHouse got:House_Targaryen ;
+    got:hasDragon got:Vhagar ;
     got:hasName "Aemond Targaryen"^^xsd:string ;
     got:isAlive false ;
     got:popularityScore "0.311036789297658"^^xsd:float .
@@ -202,7 +204,7 @@ got:Aeron_Greyjoy a got:Male,
 
 got:Aethan a got:Female,
         got:Person ;
-    got:belongsToHouse got:Nights_Watch ;
+    got:belongsToHouse got:House_Nights_Watch ;
     got:hasName "Aethan"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0100334448160535"^^xsd:float .
@@ -229,7 +231,7 @@ got:Aggo a got:Female,
 
 got:Aglantine a got:Female,
         got:Person ;
-    got:belongsToHouse got:Faith_of_the_Seven ;
+    got:belongsToHouse got:House_Faith_of_the_Seven ;
     got:hasName "Aglantine"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0133779264214046"^^xsd:float .
@@ -265,7 +267,7 @@ got:Alaric_of_Eysen a got:Female,
 got:Alayaya a got:Female,
         got:Person ;
     got:age 23 ;
-    got:belongsToHouse got:Chatayas_brothel ;
+    got:belongsToHouse got:House_Chatayas_brothel ;
     got:hasName "Alayaya"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0769230769230769"^^xsd:float .
@@ -280,7 +282,7 @@ got:Albar_Royce a got:Knight,
 
 got:Albett a got:Male,
         got:Person ;
-    got:belongsToHouse got:Nights_Watch ;
+    got:belongsToHouse got:House_Nights_Watch ;
     got:hasName "Albett"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0334448160535117"^^xsd:float .
@@ -301,7 +303,7 @@ got:Alekyne_Florent a got:Male,
 
 got:Alequo_Adarys a got:Male,
         got:Person ;
-    got:belongsToHouse got:Band_of_Nine ;
+    got:belongsToHouse got:House_Band_of_Nine ;
     got:hasName "Alequo Adarys"^^xsd:string ;
     got:isAlive false ;
     got:popularityScore "0.0133779264214046"^^xsd:float .
@@ -370,7 +372,7 @@ got:Allaquo a got:Male,
 
 got:Allar_Deem a got:Male,
         got:Person ;
-    got:belongsToHouse got:City_Watch_of_Kings_Landing ;
+    got:belongsToHouse got:House_City_Watch_of_Kings_Landing ;
     got:hasName "Allar Deem"^^xsd:string ;
     got:isAlive false ;
     got:popularityScore "0.0434782608695652"^^xsd:float .
@@ -665,7 +667,7 @@ got:Androw_Frey a got:Male,
 
 got:Anguy a got:Male,
         got:Person ;
-    got:belongsToHouse got:Brotherhood_without_banners ;
+    got:belongsToHouse got:House_Brotherhood_without_banners ;
     got:hasName "Anguy"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.130434782608695"^^xsd:float .
@@ -756,7 +758,7 @@ got:Arneld a got:Knight,
 got:Arnell a got:Knight,
         got:Male,
         got:Person ;
-    got:belongsToHouse got:Nights_Watch ;
+    got:belongsToHouse got:House_Nights_Watch ;
     got:hasName "Arnell"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0066889632107023"^^xsd:float .
@@ -784,7 +786,7 @@ got:Arrec_Durrandon a got:Male,
 
 got:Arron a got:Male,
         got:Person ;
-    got:belongsToHouse got:Nights_Watch ;
+    got:belongsToHouse got:House_Nights_Watch ;
     got:hasName "Arron"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0434782608695652"^^xsd:float .
@@ -978,7 +980,7 @@ got:Bandy a got:Female,
 
 got:Bannen a got:Male,
         got:Person ;
-    got:belongsToHouse got:Nights_Watch ;
+    got:belongsToHouse got:House_Nights_Watch ;
     got:hasName "Bannen"^^xsd:string ;
     got:isAlive false ;
     got:popularityScore "0.0334448160535117"^^xsd:float .
@@ -1031,7 +1033,7 @@ got:Barristan_Selmy a got:Knight,
 
 got:Barth a got:Male,
         got:Person ;
-    got:belongsToHouse got:Faith_of_the_Seven ;
+    got:belongsToHouse got:House_Faith_of_the_Seven ;
     got:hasName "Barth"^^xsd:string ;
     got:isAlive false ;
     got:popularityScore "0.354515050167224"^^xsd:float .
@@ -1052,7 +1054,7 @@ got:Barthogan_Stark a got:Male,
 
 got:Bass a got:Female,
         got:Person ;
-    got:belongsToHouse got:Nights_Watch ;
+    got:belongsToHouse got:House_Nights_Watch ;
     got:hasName "Bass"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0"^^xsd:float .
@@ -1067,14 +1069,14 @@ got:Bayard_Norcross a got:Female,
 
 got:Bearded_Ben a got:Male,
         got:Person ;
-    got:belongsToHouse got:Nights_Watch ;
+    got:belongsToHouse got:House_Nights_Watch ;
     got:hasName "Bearded Ben"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0234113712374581"^^xsd:float .
 
 got:Beardless_Dick a got:Female,
         got:Person ;
-    got:belongsToHouse got:Brotherhood_Without_Banners ;
+    got:belongsToHouse got:House_Brotherhood_Without_Banners ;
     got:hasName "Beardless Dick"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.020066889632107"^^xsd:float .
@@ -1095,7 +1097,7 @@ got:Beck a got:Male,
 
 got:Bedwyck a got:Male,
         got:Person ;
-    got:belongsToHouse got:Nights_Watch ;
+    got:belongsToHouse got:House_Nights_Watch ;
     got:hasName "Bedwyck"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0501672240802675"^^xsd:float .
@@ -1115,7 +1117,7 @@ got:Beldecar a got:Female,
 
 got:Belis a got:Male,
         got:Person ;
-    got:belongsToHouse got:Alchemists_Guild ;
+    got:belongsToHouse got:House_Alchemists_Guild ;
     got:hasName "Belis"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.020066889632107"^^xsd:float .
@@ -1177,7 +1179,7 @@ got:Ben_Bushy a got:Female,
 
 got:Ben_Plumm a got:Male,
         got:Person ;
-    got:belongsToHouse got:Second_Sons ;
+    got:belongsToHouse got:House_Second_Sons ;
     got:hasName "Ben Plumm"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.140468227424749"^^xsd:float .
@@ -1389,28 +1391,28 @@ got:Big_Boil a got:Male,
 
 got:Biter a got:Male,
         got:Person ;
-    got:belongsToHouse got:Brave_Companions ;
+    got:belongsToHouse got:House_Brave_Companions ;
     got:hasName "Biter"^^xsd:string ;
     got:isAlive false ;
     got:popularityScore "0.127090301003344"^^xsd:float .
 
 got:Black_Balaq a got:Male,
         got:Person ;
-    got:belongsToHouse got:Golden_Company ;
+    got:belongsToHouse got:House_Golden_Company ;
     got:hasName "Black Balaq"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0"^^xsd:float .
 
 got:Black_Bernarr a got:Male,
         got:Person ;
-    got:belongsToHouse got:Nights_Watch ;
+    got:belongsToHouse got:House_Nights_Watch ;
     got:hasName "Black Bernarr"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.020066889632107"^^xsd:float .
 
 got:Blane a got:Male,
         got:Person ;
-    got:belongsToHouse got:Nights_Watch ;
+    got:belongsToHouse got:House_Nights_Watch ;
     got:hasName "Blane"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.020066889632107"^^xsd:float .
@@ -1423,7 +1425,7 @@ got:Blind_Doss a got:Female,
 
 got:Bloodbeard a got:Female,
         got:Person ;
-    got:belongsToHouse got:Company_of_the_Cat ;
+    got:belongsToHouse got:House_Company_of_the_Cat ;
     got:hasName "Bloodbeard"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0903010033444816"^^xsd:float .
@@ -1458,7 +1460,7 @@ got:Bonifer_Hasty a got:Knight,
 
 got:Borcas a got:Male,
         got:Person ;
-    got:belongsToHouse got:Nights_Watch ;
+    got:belongsToHouse got:House_Nights_Watch ;
     got:hasName "Borcas"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0"^^xsd:float .
@@ -1493,7 +1495,7 @@ got:Bors a got:Male,
 
 got:Bowen_Marsh a got:Male,
         got:Person ;
-    got:belongsToHouse got:Nights_Watch ;
+    got:belongsToHouse got:House_Nights_Watch ;
     got:hasName "Bowen Marsh"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.254180602006688"^^xsd:float .
@@ -1621,7 +1623,7 @@ got:Brogg a got:Male,
 
 got:Brown_Bernarr a got:Female,
         got:Person ;
-    got:belongsToHouse got:Nights_Watch ;
+    got:belongsToHouse got:House_Nights_Watch ;
     got:hasName "Brown Bernarr"^^xsd:string ;
     got:isAlive false ;
     got:popularityScore "0.0234113712374581"^^xsd:float .
@@ -1740,7 +1742,7 @@ got:Buu a got:Female,
 got:Byam_Flint a got:Knight,
         got:Male,
         got:Person ;
-    got:belongsToHouse got:Nights_Watch ;
+    got:belongsToHouse got:House_Nights_Watch ;
     got:hasName "Byam Flint"^^xsd:string ;
     got:isAlive false ;
     got:popularityScore "0.020066889632107"^^xsd:float .
@@ -1882,7 +1884,7 @@ got:Cedrik_Storm a got:Bastard,
 
 got:Cellador a got:Male,
         got:Person ;
-    got:belongsToHouse got:Nights_Watch ;
+    got:belongsToHouse got:House_Nights_Watch ;
     got:hasName "Cellador"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0334448160535117"^^xsd:float .
@@ -1917,7 +1919,7 @@ got:Cetheres a got:Female,
 
 got:Chataya a got:Female,
         got:Person ;
-    got:belongsToHouse got:Chatayas_brothel ;
+    got:belongsToHouse got:House_Chatayas_brothel ;
     got:hasName "Chataya"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0735785953177257"^^xsd:float .
@@ -1930,21 +1932,21 @@ got:Chayle a got:Male,
 
 got:Chella a got:Female,
         got:Person ;
-    got:belongsToHouse got:Black_Ears ;
+    got:belongsToHouse got:House_Black_Ears ;
     got:hasName "Chella"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0367892976588628"^^xsd:float .
 
 got:Chett a got:Male,
         got:Person ;
-    got:belongsToHouse got:Nights_Watch ;
+    got:belongsToHouse got:House_Nights_Watch ;
     got:hasName "Chett"^^xsd:string ;
     got:isAlive false ;
     got:popularityScore "0.197324414715719"^^xsd:float .
 
 got:Cheyk a got:Female,
         got:Person ;
-    got:belongsToHouse got:Black_Ears ;
+    got:belongsToHouse got:House_Black_Ears ;
     got:hasName "Cheyk"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0133779264214046"^^xsd:float .
@@ -2065,7 +2067,7 @@ got:Clifford_Conklyn a got:Knight,
 
 got:Clubfoot_Karl a got:Male,
         got:Person ;
-    got:belongsToHouse got:Nights_Watch ;
+    got:belongsToHouse got:House_Nights_Watch ;
     got:hasName "Clubfoot Karl"^^xsd:string ;
     got:isAlive false ;
     got:popularityScore "0.0267558528428093"^^xsd:float .
@@ -2073,21 +2075,21 @@ got:Clubfoot_Karl a got:Male,
 got:Clydas a got:Male,
         got:Person ;
     got:age 65 ;
-    got:belongsToHouse got:Nights_Watch ;
+    got:belongsToHouse got:House_Nights_Watch ;
     got:hasName "Clydas"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0635451505016722"^^xsd:float .
 
 got:Cohollo a got:Male,
         got:Person ;
-    got:belongsToHouse got:Khal ;
+    got:belongsToHouse got:House_Khal ;
     got:hasName "Cohollo"^^xsd:string ;
     got:isAlive false ;
     got:popularityScore "0.0334448160535117"^^xsd:float .
 
 got:Coldhands a got:Male,
         got:Person ;
-    got:belongsToHouse got:Three-eyed_crow ;
+    got:belongsToHouse got:House_Three-eyed_crow ;
     got:hasName "Coldhands"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.130434782608695"^^xsd:float .
@@ -2131,21 +2133,21 @@ got:Colmar_Frey a got:Male,
 
 got:Conn a got:Male,
         got:Person ;
-    got:belongsToHouse got:Stone_Crows ;
+    got:belongsToHouse got:House_Stone_Crows ;
     got:hasName "Conn"^^xsd:string ;
     got:isAlive false ;
     got:popularityScore "0.0133779264214046"^^xsd:float .
 
 got:Conwy a got:Female,
         got:Person ;
-    got:belongsToHouse got:Nights_Watch ;
+    got:belongsToHouse got:House_Nights_Watch ;
     got:hasName "Conwy"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0267558528428093"^^xsd:float .
 
 got:Coratt a got:Male,
         got:Person ;
-    got:belongsToHouse got:Stone_Crows ;
+    got:belongsToHouse got:House_Stone_Crows ;
     got:hasName "Coratt"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0033444816053511"^^xsd:float .
@@ -2182,7 +2184,7 @@ got:Cossomo a got:Male,
 got:Cotter_Pyke a got:Bastard,
         got:Male,
         got:Person ;
-    got:belongsToHouse got:Nights_Watch ;
+    got:belongsToHouse got:House_Nights_Watch ;
     got:hasName "Cotter Pyke"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.150501672240802"^^xsd:float .
@@ -2197,7 +2199,7 @@ got:Courtenay_Greenhill a got:Female,
 
 got:Craghas_Drahar a got:Male,
         got:Person ;
-    got:belongsToHouse got:Kingdom_of_the_Three_Daughters ;
+    got:belongsToHouse got:House_Kingdom_of_the_Three_Daughters ;
     got:hasName "Craghas Drahar"^^xsd:string ;
     got:isAlive false ;
     got:popularityScore "0.0167224080267558"^^xsd:float .
@@ -2211,7 +2213,7 @@ got:Cragorn a got:Male,
 
 got:Crawn a got:Male,
         got:Person ;
-    got:belongsToHouse got:Moon_Brothers ;
+    got:belongsToHouse got:House_Moon_Brothers ;
     got:hasName "Crawn"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0167224080267558"^^xsd:float .
@@ -2266,7 +2268,7 @@ got:Criston_Cole a got:Knight,
 
 got:Cuger a got:Male,
         got:Person ;
-    got:belongsToHouse got:Nights_Watch ;
+    got:belongsToHouse got:House_Nights_Watch ;
     got:hasName "Cuger"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0066889632107023"^^xsd:float .
@@ -2296,7 +2298,7 @@ got:Cyrenna_Swann a got:Female,
 
 got:Daario_Naharis a got:Male,
         got:Person ;
-    got:belongsToHouse got:Stormcrows ;
+    got:belongsToHouse got:House_Stormcrows ;
     got:hasName "Daario Naharis"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.220735785953177"^^xsd:float .
@@ -2463,7 +2465,7 @@ got:Dake a got:Male,
 got:Dalbridge a got:Male,
         got:Person ;
     got:age 45 ;
-    got:belongsToHouse got:Nights_Watch ;
+    got:belongsToHouse got:House_Nights_Watch ;
     got:hasName "Dalbridge"^^xsd:string ;
     got:isAlive false ;
     got:popularityScore "0.0501672240802675"^^xsd:float .
@@ -2552,7 +2554,7 @@ got:Dan a got:Male,
 
 got:Dancy a got:Female,
         got:Person ;
-    got:belongsToHouse got:Chatayas_brothel ;
+    got:belongsToHouse got:House_Chatayas_brothel ;
     got:hasName "Dancy"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.040133779264214"^^xsd:float .
@@ -2580,7 +2582,7 @@ got:Danos_Slynt a got:Male,
 
 got:Dareon a got:Male,
         got:Person ;
-    got:belongsToHouse got:Nights_Watch ;
+    got:belongsToHouse got:House_Nights_Watch ;
     got:hasName "Dareon"^^xsd:string ;
     got:isAlive false ;
     got:popularityScore "0.167224080267558"^^xsd:float .
@@ -2749,7 +2751,7 @@ got:Dick_Crabb a got:Male,
 
 got:Dick_Follard a got:Male,
         got:Person ;
-    got:belongsToHouse got:Nights_Watch ;
+    got:belongsToHouse got:House_Nights_Watch ;
     got:hasName "Dick Follard"^^xsd:string ;
     got:isAlive false ;
     got:popularityScore "0.0301003344481605"^^xsd:float .
@@ -2771,7 +2773,7 @@ got:Dickon_Manwoody a got:Male,
 
 got:Dirk a got:Male,
         got:Person ;
-    got:belongsToHouse got:Nights_Watch ;
+    got:belongsToHouse got:House_Nights_Watch ;
     got:hasName "Dirk"^^xsd:string ;
     got:isAlive false ;
     got:popularityScore "0.0434782608695652"^^xsd:float .
@@ -2784,7 +2786,7 @@ got:Dobber a got:Male,
 
 got:Dolf a got:Female,
         got:Person ;
-    got:belongsToHouse got:Stone_Crows ;
+    got:belongsToHouse got:House_Stone_Crows ;
     got:hasName "Dolf"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0167224080267558"^^xsd:float .
@@ -2831,7 +2833,7 @@ got:Donnel_Haigh a got:Knight,
 got:Donnel_Hill a got:Bastard,
         got:Male,
         got:Person ;
-    got:belongsToHouse got:Nights_Watch ;
+    got:belongsToHouse got:House_Nights_Watch ;
     got:hasName "Donnel Hill"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0434782608695652"^^xsd:float .
@@ -2856,7 +2858,7 @@ got:Donnel_Waynwood a got:Female,
 got:Donnel_of_Duskendale a got:Knight,
         got:Male,
         got:Person ;
-    got:belongsToHouse got:Kingsguard ;
+    got:belongsToHouse got:House_Kingsguard ;
     got:hasName "Donnel of Duskendale"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0367892976588628"^^xsd:float .
@@ -2931,7 +2933,7 @@ got:Dormund a got:Male,
 
 got:Dornish_Dilly a got:Female,
         got:Person ;
-    got:belongsToHouse got:Nights_Watch ;
+    got:belongsToHouse got:House_Nights_Watch ;
     got:hasName "Dornish Dilly"^^xsd:string ;
     got:isAlive false ;
     got:popularityScore "0.0033444816053511"^^xsd:float .
@@ -3030,21 +3032,21 @@ got:Dykk_Harlaw a got:Male,
 
 got:Dywen a got:Male,
         got:Person ;
-    got:belongsToHouse got:Nights_Watch ;
+    got:belongsToHouse got:House_Nights_Watch ;
     got:hasName "Dywen"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0936454849498327"^^xsd:float .
 
 got:Easy a got:Male,
         got:Person ;
-    got:belongsToHouse got:Nights_Watch ;
+    got:belongsToHouse got:House_Nights_Watch ;
     got:hasName "Easy"^^xsd:string ;
     got:isAlive false ;
     got:popularityScore "0.0033444816053511"^^xsd:float .
 
 got:Ebben a got:Male,
         got:Person ;
-    got:belongsToHouse got:Nights_Watch ;
+    got:belongsToHouse got:House_Nights_Watch ;
     got:hasName "Ebben"^^xsd:string ;
     got:isAlive false ;
     got:popularityScore "0.0434782608695652"^^xsd:float .
@@ -3190,14 +3192,14 @@ got:Eggon a got:Male,
 
 got:Eglantine a got:Female,
         got:Person ;
-    got:belongsToHouse got:Faith_of_the_Seven ;
+    got:belongsToHouse got:House_Faith_of_the_Seven ;
     got:hasName "Eglantine"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0066889632107023"^^xsd:float .
 
 got:Egon_Emeros a got:Female,
         got:Person ;
-    got:belongsToHouse got:Pureborn ;
+    got:belongsToHouse got:House_Pureborn ;
     got:hasName "Egon Emeros"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0133779264214046"^^xsd:float .
@@ -3214,7 +3216,7 @@ got:Elder_Brother a got:Knight,
         got:Male,
         got:Person ;
     got:age 50 ;
-    got:belongsToHouse got:Faith_of_the_Seven ;
+    got:belongsToHouse got:House_Faith_of_the_Seven ;
     got:hasName "Elder Brother"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0769230769230769"^^xsd:float .
@@ -3284,7 +3286,7 @@ got:Elmar_Frey a got:Male,
 
 got:Elron a got:Female,
         got:Person ;
-    got:belongsToHouse got:Nights_Watch ;
+    got:belongsToHouse got:House_Nights_Watch ;
     got:hasName "Elron"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0133779264214046"^^xsd:float .
@@ -3351,7 +3353,7 @@ got:Emmon_Cuy a got:Knight,
 
 got:Emmond a got:Male,
         got:Person ;
-    got:belongsToHouse got:Drowned_men ;
+    got:belongsToHouse got:House_Drowned_men ;
     got:hasName "Emmond"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0100334448160535"^^xsd:float .
@@ -3365,7 +3367,7 @@ got:Emphyria_Vance a got:Female,
 
 got:Emrick a got:Male,
         got:Person ;
-    got:belongsToHouse got:Nights_Watch ;
+    got:belongsToHouse got:House_Nights_Watch ;
     got:hasName "Emrick"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0434782608695652"^^xsd:float .
@@ -3469,7 +3471,7 @@ got:Euron_Greyjoy a got:Male,
 
 got:Eustace_Braavos a got:Female,
         got:Person ;
-    got:belongsToHouse got:Faith_of_the_Seven ;
+    got:belongsToHouse got:House_Faith_of_the_Seven ;
     got:hasName "Eustace (Braavos)"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0100334448160535"^^xsd:float .
@@ -3483,7 +3485,7 @@ got:Eustace_Brune a got:Male,
 
 got:Eustace_Dance_of_the_Dragons a got:Male,
         got:Person ;
-    got:belongsToHouse got:Faith_of_the_Seven ;
+    got:belongsToHouse got:House_Faith_of_the_Seven ;
     got:hasName "Eustace (Dance of the Dragons)"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0367892976588628"^^xsd:float .
@@ -3520,7 +3522,7 @@ got:Ezzara a got:Female,
 
 got:Ezzelyno a got:Female,
         got:Person ;
-    got:belongsToHouse got:Rhllor ;
+    got:belongsToHouse got:House_Rhllor ;
     got:hasName "Ezzelyno"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0133779264214046"^^xsd:float .
@@ -3591,7 +3593,7 @@ got:Forley_Prester a got:Knight,
 
 got:Fornio a got:Male,
         got:Person ;
-    got:belongsToHouse got:Nights_Watch ;
+    got:belongsToHouse got:House_Nights_Watch ;
     got:hasName "Fornio"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0100334448160535"^^xsd:float .
@@ -3645,7 +3647,7 @@ got:Gage a got:Female,
 got:Galazza_Galare a got:Female,
         got:Person ;
     got:age 88 ;
-    got:belongsToHouse got:Graces ;
+    got:belongsToHouse got:House_Graces ;
     got:hasName "Galazza Galare"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0903010033444816"^^xsd:float .
@@ -3672,7 +3674,7 @@ got:Gallard a got:Female,
 
 got:Galt a got:Female,
         got:Person ;
-    got:belongsToHouse got:Stone_Crows ;
+    got:belongsToHouse got:House_Stone_Crows ;
     got:hasName "Galt"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0033444816053511"^^xsd:float .
@@ -3693,7 +3695,7 @@ got:Galyeon_of_Cuy a got:Male,
 got:Gared a got:Male,
         got:Person ;
     got:age 66 ;
-    got:belongsToHouse got:Nights_Watch ;
+    got:belongsToHouse got:House_Nights_Watch ;
     got:hasName "Gared"^^xsd:string ;
     got:isAlive false ;
     got:popularityScore "0.0936454849498327"^^xsd:float .
@@ -3716,7 +3718,7 @@ got:Gareth_the_Grey a got:Knight,
 
 got:Garigus a got:Male,
         got:Person ;
-    got:belongsToHouse got:Alchemists_Guild ;
+    got:belongsToHouse got:House_Alchemists_Guild ;
     got:hasName "Garigus"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.020066889632107"^^xsd:float .
@@ -3773,7 +3775,7 @@ got:Garth_Greenfield a got:Female,
 
 got:Garth_Greyfeather a got:Male,
         got:Person ;
-    got:belongsToHouse got:Nights_Watch ;
+    got:belongsToHouse got:House_Nights_Watch ;
     got:hasName "Garth Greyfeather"^^xsd:string ;
     got:isAlive false ;
     got:popularityScore "0.0501672240802675"^^xsd:float .
@@ -3801,14 +3803,14 @@ got:Garth_XII_Gardener a got:Female,
 
 got:Garth_of_Greenaway a got:Male,
         got:Person ;
-    got:belongsToHouse got:Nights_Watch ;
+    got:belongsToHouse got:House_Nights_Watch ;
     got:hasName "Garth of Greenaway"^^xsd:string ;
     got:isAlive false ;
     got:popularityScore "0.0301003344481605"^^xsd:float .
 
 got:Garth_of_Oldtown a got:Female,
         got:Person ;
-    got:belongsToHouse got:Nights_Watch ;
+    got:belongsToHouse got:House_Nights_Watch ;
     got:hasName "Garth of Oldtown"^^xsd:string ;
     got:isAlive false ;
     got:popularityScore "0.020066889632107"^^xsd:float .
@@ -3869,7 +3871,7 @@ got:Gendry a got:Knight,
         got:Male,
         got:Person ;
     got:age 21 ;
-    got:belongsToHouse got:brotherhood_without_banners ;
+    got:belongsToHouse got:House_brotherhood_without_banners ;
     got:hasName "Gendry"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.438127090301003"^^xsd:float .
@@ -3884,7 +3886,7 @@ got:Gerald_Gower a got:Female,
 
 got:Gerardys a got:Male,
         got:Person ;
-    got:belongsToHouse got:Blacks ;
+    got:belongsToHouse got:House_Blacks ;
     got:hasName "Gerardys"^^xsd:string ;
     got:isAlive false ;
     got:popularityScore "0.0234113712374581"^^xsd:float .
@@ -4021,7 +4023,7 @@ got:Glendon_Hewett a got:Knight,
 
 got:Goady a got:Female,
         got:Person ;
-    got:belongsToHouse got:Nights_Watch ;
+    got:belongsToHouse got:House_Nights_Watch ;
     got:hasName "Goady"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0167224080267558"^^xsd:float .
@@ -4065,7 +4067,7 @@ got:Gormon_Peake a got:Male,
 
 got:Gormon_Tyrell a got:Male,
         got:Person ;
-    got:belongsToHouse got:Citadel ;
+    got:belongsToHouse got:House_Citadel ;
     got:hasName "Gormon Tyrell"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.153846153846153"^^xsd:float .
@@ -4122,14 +4124,14 @@ got:Grazdan a got:Male,
 
 got:Grazdan_mo_Eraz a got:Female,
         got:Person ;
-    got:belongsToHouse got:Wise_Masters ;
+    got:belongsToHouse got:House_Wise_Masters ;
     got:hasName "Grazdan mo Eraz"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0234113712374581"^^xsd:float .
 
 got:Grazdan_mo_Ullhor a got:Male,
         got:Person ;
-    got:belongsToHouse got:Good_Masters ;
+    got:belongsToHouse got:House_Good_Masters ;
     got:hasName "Grazdan mo Ullhor"^^xsd:string ;
     got:isAlive false ;
     got:popularityScore "0.0301003344481605"^^xsd:float .
@@ -4162,7 +4164,7 @@ got:Green_Gergen a got:Male,
 
 got:Greenbeard a got:Male,
         got:Person ;
-    got:belongsToHouse got:Brotherhood_without_banners ;
+    got:belongsToHouse got:House_Brotherhood_without_banners ;
     got:hasName "Greenbeard"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0367892976588628"^^xsd:float .
@@ -4179,7 +4181,7 @@ got:Gregor_Clegane a got:Knight,
 got:Grenn a got:Male,
         got:Person ;
     got:age 24 ;
-    got:belongsToHouse got:Nights_Watch ;
+    got:belongsToHouse got:House_Nights_Watch ;
     got:hasName "Grenn"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.204013377926421"^^xsd:float .
@@ -4199,7 +4201,7 @@ got:Grey_King a got:Male,
 
 got:Grey_Worm a got:Male,
         got:Person ;
-    got:belongsToHouse got:Unsullied ;
+    got:belongsToHouse got:House_Unsullied ;
     got:hasName "Grey Worm"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.140468227424749"^^xsd:float .
@@ -4245,7 +4247,7 @@ got:Groleo a got:Female,
 
 got:Grubbs a got:Female,
         got:Person ;
-    got:belongsToHouse got:Nights_Watch ;
+    got:belongsToHouse got:House_Nights_Watch ;
     got:hasName "Grubbs"^^xsd:string ;
     got:isAlive false ;
     got:popularityScore "0.020066889632107"^^xsd:float .
@@ -4259,7 +4261,7 @@ got:Grunt a got:Male,
 
 got:Gueren a got:Male,
         got:Person ;
-    got:belongsToHouse got:Nights_Watch ;
+    got:belongsToHouse got:House_Nights_Watch ;
     got:hasName "Gueren"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0133779264214046"^^xsd:float .
@@ -4295,7 +4297,7 @@ got:Guncer_Sunglass a got:Male,
 
 got:Gurn a got:Female,
         got:Person ;
-    got:belongsToHouse got:Stone_Crows ;
+    got:belongsToHouse got:House_Stone_Crows ;
     got:hasName "Gurn"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0033444816053511"^^xsd:float .
@@ -4370,7 +4372,7 @@ got:Gylbert_Farwynd a got:Male,
 
 got:Gyldayn a got:Male,
         got:Person ;
-    got:belongsToHouse got:The_Citadel ;
+    got:belongsToHouse got:House_The_Citadel ;
     got:hasName "Gyldayn"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.157190635451505"^^xsd:float .
@@ -4384,7 +4386,7 @@ got:Gyleno_Dothare a got:Male,
 got:Gyles a got:Female,
         got:Knight,
         got:Person ;
-    got:belongsToHouse got:Kingsguard ;
+    got:belongsToHouse got:House_Kingsguard ;
     got:hasName "Gyles"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0033444816053511"^^xsd:float .
@@ -4450,14 +4452,14 @@ got:Haggon a got:Male,
 
 got:Hairy_Hal a got:Female,
         got:Person ;
-    got:belongsToHouse got:Nights_Watch ;
+    got:belongsToHouse got:House_Nights_Watch ;
     got:hasName "Hairy Hal"^^xsd:string ;
     got:isAlive false ;
     got:popularityScore "0.0334448160535117"^^xsd:float .
 
 got:Hake a got:Male,
         got:Person ;
-    got:belongsToHouse got:Nights_Watch ;
+    got:belongsToHouse got:House_Nights_Watch ;
     got:hasName "Hake"^^xsd:string ;
     got:isAlive false ;
     got:popularityScore "0.0267558528428093"^^xsd:float .
@@ -4465,7 +4467,7 @@ got:Hake a got:Male,
 got:Halder a got:Male,
         got:Person ;
     got:age 24 ;
-    got:belongsToHouse got:Nights_Watch ;
+    got:belongsToHouse got:House_Nights_Watch ;
     got:hasName "Halder"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.060200668896321"^^xsd:float .
@@ -4492,7 +4494,7 @@ got:Hallis_Mollen a got:Male,
 
 got:Hallyne a got:Male,
         got:Person ;
-    got:belongsToHouse got:Alchemists_Guild ;
+    got:belongsToHouse got:House_Alchemists_Guild ;
     got:hasName "Hallyne"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0869565217391304"^^xsd:float .
@@ -4529,7 +4531,7 @@ got:Harbert_Paege a got:Female,
 
 got:Hareth_Moles_Town a got:Male,
         got:Person ;
-    got:belongsToHouse got:Nights_Watch ;
+    got:belongsToHouse got:House_Nights_Watch ;
     got:hasName "Hareth (Mole's Town)"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0501672240802675"^^xsd:float .
@@ -4618,7 +4620,7 @@ got:Harmund_Sharp a got:Male,
 
 got:Harmune a got:Male,
         got:Person ;
-    got:belongsToHouse got:Nights_Watch ;
+    got:belongsToHouse got:House_Nights_Watch ;
     got:hasName "Harmune"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0434782608695652"^^xsd:float .
@@ -4901,7 +4903,7 @@ got:Hibald a got:Male,
 
 got:High_Sparrow a got:Male,
         got:Person ;
-    got:belongsToHouse got:Faith_of_the_Seven ;
+    got:belongsToHouse got:House_Faith_of_the_Seven ;
     got:hasName "High Sparrow"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.167224080267558"^^xsd:float .
@@ -4928,7 +4930,7 @@ got:Hoarfrost_Umber a got:Male,
 
 got:Hobb a got:Male,
         got:Person ;
-    got:belongsToHouse got:Nights_Watch ;
+    got:belongsToHouse got:House_Nights_Watch ;
     got:hasName "Hobb"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0434782608695652"^^xsd:float .
@@ -4963,7 +4965,7 @@ got:Hoke a got:Female,
 
 got:Holger a got:Female,
         got:Person ;
-    got:belongsToHouse got:Stone_Crows ;
+    got:belongsToHouse got:House_Stone_Crows ;
     got:hasName "Holger"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0033444816053511"^^xsd:float .
@@ -4977,7 +4979,7 @@ got:Holly a got:Male,
 
 got:Hop-Robin a got:Male,
         got:Person ;
-    got:belongsToHouse got:Nights_Watch ;
+    got:belongsToHouse got:House_Nights_Watch ;
     got:hasName "Hop-Robin"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0334448160535117"^^xsd:float .
@@ -5053,7 +5055,7 @@ got:Hugh_Beesbury a got:Female,
 got:Hugh_Hammer a got:Knight,
         got:Male,
         got:Person ;
-    got:belongsToHouse got:Blacks ;
+    got:belongsToHouse got:House_Blacks ;
     got:hasName "Hugh Hammer"^^xsd:string ;
     got:isAlive false ;
     got:popularityScore "0.0769230769230769"^^xsd:float .
@@ -5152,7 +5154,7 @@ got:Hyle_Hunt a got:Female,
 
 got:Iggo a got:Male,
         got:Person ;
-    got:belongsToHouse got:Brave_Companions ;
+    got:belongsToHouse got:House_Brave_Companions ;
     got:hasName "Iggo"^^xsd:string ;
     got:isAlive false ;
     got:popularityScore "0.0167224080267558"^^xsd:float .
@@ -5212,7 +5214,7 @@ got:Jacelyn_Bywater a got:Knight,
 
 got:Jack-Be-Lucky a got:Male,
         got:Person ;
-    got:belongsToHouse got:Brotherhood_without_banners ;
+    got:belongsToHouse got:House_Brotherhood_without_banners ;
     got:hasName "Jack-Be-Lucky"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0267558528428093"^^xsd:float .
@@ -5253,14 +5255,14 @@ got:Jaehaerys_Targaryen_son_of_Aegon_II a got:Male,
 got:Jafer_Flowers a got:Bastard,
         got:Male,
         got:Person ;
-    got:belongsToHouse got:Nights_Watch ;
+    got:belongsToHouse got:House_Nights_Watch ;
     got:hasName "Jafer Flowers"^^xsd:string ;
     got:isAlive false ;
     got:popularityScore "0.0434782608695652"^^xsd:float .
 
 got:Jaggot a got:Female,
         got:Person ;
-    got:belongsToHouse got:Stone_Crows ;
+    got:belongsToHouse got:House_Stone_Crows ;
     got:hasName "Jaggot"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0"^^xsd:float .
@@ -5284,7 +5286,7 @@ got:Jaime_Lannister a got:Knight,
 
 got:Jalabhar_Xho a got:Male,
         got:Person ;
-    got:belongsToHouse got:Summer_Islands ;
+    got:belongsToHouse got:House_Summer_Islands ;
     got:hasName "Jalabhar Xho"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0735785953177257"^^xsd:float .
@@ -5300,21 +5302,21 @@ got:Janei_Lannister a got:Female,
 got:Janos_Slynt a got:Male,
         got:Person ;
     got:age 22 ;
-    got:belongsToHouse got:Nights_Watch ;
+    got:belongsToHouse got:House_Nights_Watch ;
     got:hasName "Janos Slynt"^^xsd:string ;
     got:isAlive false ;
     got:popularityScore "0.561872909698996"^^xsd:float .
 
 got:Jaqen_Hghar a got:Male,
         got:Person ;
-    got:belongsToHouse got:Faceless_Men ;
+    got:belongsToHouse got:House_Faceless_Men ;
     got:hasName "Jaqen H'ghar"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.20066889632107"^^xsd:float .
 
 got:Jaremy_Rykker a got:Male,
         got:Person ;
-    got:belongsToHouse got:Nights_Watch ;
+    got:belongsToHouse got:House_Nights_Watch ;
     got:hasName "Jaremy Rykker"^^xsd:string ;
     got:isAlive false ;
     got:popularityScore "0.060200668896321"^^xsd:float .
@@ -5385,7 +5387,7 @@ got:Jate_Blackberry a got:Male,
 
 got:Jayde a got:Female,
         got:Person ;
-    got:belongsToHouse got:Chatayas_brothel ;
+    got:belongsToHouse got:House_Chatayas_brothel ;
     got:hasName "Jayde"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.020066889632107"^^xsd:float .
@@ -5422,7 +5424,7 @@ got:Jeor_Mormont a got:Male,
 
 got:Jeren a got:Male,
         got:Person ;
-    got:belongsToHouse got:Nights_Watch ;
+    got:belongsToHouse got:House_Nights_Watch ;
     got:hasName "Jeren"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.020066889632107"^^xsd:float .
@@ -5445,7 +5447,7 @@ got:Jeyne_Goodbrook a got:Female,
 got:Jeyne_Heddle a got:Female,
         got:Person ;
     got:age 24 ;
-    got:belongsToHouse got:Brotherhood_Without_Banners ;
+    got:belongsToHouse got:House_Brotherhood_Without_Banners ;
     got:hasName "Jeyne Heddle"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0334448160535117"^^xsd:float .
@@ -5700,6 +5702,7 @@ got:Jon_Snow a got:Bastard,
         got:Person ;
     got:age 22 ;
     got:belongsToHouse got:House_Stark ;
+    got:hasDragon got:Rhaegal ;
     got:hasName "Jon Snow"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "1.0"^^xsd:float .
@@ -5804,7 +5807,7 @@ got:Jorgen a got:Male,
 
 got:Jorquen a got:Male,
         got:Person ;
-    got:belongsToHouse got:Nights_Watch ;
+    got:belongsToHouse got:House_Nights_Watch ;
     got:hasName "Jorquen"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0033444816053511"^^xsd:float .
@@ -5961,7 +5964,7 @@ got:Karyl_Vance a got:Knight,
 got:Kedge_Whiteye a got:Male,
         got:Person ;
     got:age 54 ;
-    got:belongsToHouse got:Nights_Watch ;
+    got:belongsToHouse got:House_Nights_Watch ;
     got:hasName "Kedge Whiteye"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0367892976588628"^^xsd:float .
@@ -5974,7 +5977,7 @@ got:Kedry a got:Male,
 
 got:Kegs a got:Male,
         got:Person ;
-    got:belongsToHouse got:Nights_Watch ;
+    got:belongsToHouse got:House_Nights_Watch ;
     got:hasName "Kegs"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0167224080267558"^^xsd:float .
@@ -6009,7 +6012,7 @@ got:Kennos_of_Kayce a got:Knight,
 
 got:Ketter a got:Female,
         got:Person ;
-    got:belongsToHouse got:Nights_Watch ;
+    got:belongsToHouse got:House_Nights_Watch ;
     got:hasName "Ketter"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0"^^xsd:float .
@@ -6073,7 +6076,7 @@ got:Koss a got:Male,
 
 got:Kraznys_mo_Nakloz a got:Male,
         got:Person ;
-    got:belongsToHouse got:Good_Masters ;
+    got:belongsToHouse got:House_Good_Masters ;
     got:hasName "Kraznys mo Nakloz"^^xsd:string ;
     got:isAlive false ;
     got:popularityScore "0.0769230769230769"^^xsd:float .
@@ -6122,7 +6125,7 @@ got:Kyle_Royce a got:Male,
 
 got:Kyle_brotherhood a got:Female,
         got:Person ;
-    got:belongsToHouse got:Brotherhood_without_banners ;
+    got:belongsToHouse got:House_Brotherhood_without_banners ;
     got:hasName "Kyle (brotherhood)"^^xsd:string ;
     got:isAlive false ;
     got:popularityScore "0.0"^^xsd:float .
@@ -6220,7 +6223,7 @@ got:Lanna a got:Female,
 got:Lanna_Happy_Port a got:Female,
         got:Person ;
     got:age 19 ;
-    got:belongsToHouse got:Happy_Port ;
+    got:belongsToHouse got:House_Happy_Port ;
     got:hasName "Lanna (Happy Port)"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0267558528428093"^^xsd:float .
@@ -6236,7 +6239,7 @@ got:Larence_Snow a got:Bastard,
 
 got:Lark a got:Male,
         got:Person ;
-    got:belongsToHouse got:Nights_Watch ;
+    got:belongsToHouse got:House_Nights_Watch ;
     got:hasName "Lark"^^xsd:string ;
     got:isAlive false ;
     got:popularityScore "0.040133779264214"^^xsd:float .
@@ -6280,21 +6283,21 @@ got:Leana_Frey a got:Female,
 got:Leathers a got:Male,
         got:Person ;
     got:age 46 ;
-    got:belongsToHouse got:Nights_Watch ;
+    got:belongsToHouse got:House_Nights_Watch ;
     got:hasName "Leathers"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0501672240802675"^^xsd:float .
 
 got:Left_Hand_Lew a got:Male,
         got:Person ;
-    got:belongsToHouse got:Nights_Watch ;
+    got:belongsToHouse got:House_Nights_Watch ;
     got:hasName "Left Hand Lew"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0167224080267558"^^xsd:float .
 
 got:Lem a got:Male,
         got:Person ;
-    got:belongsToHouse got:Brotherhood_without_banners ;
+    got:belongsToHouse got:House_Brotherhood_without_banners ;
     got:hasName "Lem"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0836120401337792"^^xsd:float .
@@ -6393,7 +6396,7 @@ got:Lew_guard a got:Female,
 
 got:Lewis_Lanster a got:Male,
         got:Person ;
-    got:belongsToHouse got:Windblown ;
+    got:belongsToHouse got:House_Windblown ;
     got:hasName "Lewis Lanster"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0066889632107023"^^xsd:float .
@@ -6443,7 +6446,7 @@ got:Liane_Vance a got:Female,
 
 got:Likely_Luke a got:Female,
         got:Person ;
-    got:belongsToHouse got:Brotherhood_Without_Banners ;
+    got:belongsToHouse got:House_Brotherhood_Without_Banners ;
     got:hasName "Likely Luke"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0133779264214046"^^xsd:float .
@@ -6683,7 +6686,7 @@ got:Lucas_Tyrell a got:Male,
 got:Luceon_Frey a got:Male,
         got:Person ;
     got:age 56 ;
-    got:belongsToHouse got:Faith_of_the_Seven ;
+    got:belongsToHouse got:House_Faith_of_the_Seven ;
     got:hasName "Luceon Frey"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0769230769230769"^^xsd:float .
@@ -6732,7 +6735,7 @@ got:Lucos_Chyttering a got:Male,
 
 got:Luke_of_Longtown a got:Female,
         got:Person ;
-    got:belongsToHouse got:Nights_Watch ;
+    got:belongsToHouse got:House_Nights_Watch ;
     got:hasName "Luke of Longtown"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0133779264214046"^^xsd:float .
@@ -6860,7 +6863,7 @@ got:Lyn_Corbray a got:Knight,
 
 got:Lync a got:Female,
         got:Person ;
-    got:belongsToHouse got:Nights_Watch ;
+    got:belongsToHouse got:House_Nights_Watch ;
     got:hasName "Lync"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0066889632107023"^^xsd:float .
@@ -6884,7 +6887,7 @@ got:Lyonel_Baratheon a got:Knight,
 got:Lyonel_Bentley a got:Female,
         got:Knight,
         got:Person ;
-    got:belongsToHouse got:Queensguard ;
+    got:belongsToHouse got:House_Queensguard ;
     got:hasName "Lyonel Bentley"^^xsd:string ;
     got:isAlive false ;
     got:popularityScore "0.0133779264214046"^^xsd:float .
@@ -6945,14 +6948,14 @@ got:Lyra_Mormont a got:Female,
 
 got:Lysono_Maar a got:Male,
         got:Person ;
-    got:belongsToHouse got:Golden_Company ;
+    got:belongsToHouse got:House_Golden_Company ;
     got:hasName "Lysono Maar"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.020066889632107"^^xsd:float .
 
 got:Mad_Huntsman a got:Male,
         got:Person ;
-    got:belongsToHouse got:Brotherhood_without_banners ;
+    got:belongsToHouse got:House_Brotherhood_without_banners ;
     got:hasName "Mad Huntsman"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0367892976588628"^^xsd:float .
@@ -7028,7 +7031,7 @@ got:Malcolm a got:Female,
 got:Mallador_Locke a got:Knight,
         got:Male,
         got:Person ;
-    got:belongsToHouse got:Nights_Watch ;
+    got:belongsToHouse got:House_Nights_Watch ;
     got:hasName "Mallador Locke"^^xsd:string ;
     got:isAlive false ;
     got:popularityScore "0.0267558528428093"^^xsd:float .
@@ -7041,7 +7044,7 @@ got:Malleon a got:Male,
 
 got:Malliard a got:Male,
         got:Person ;
-    got:belongsToHouse got:Alchemists_Guild ;
+    got:belongsToHouse got:House_Alchemists_Guild ;
     got:hasName "Malliard"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0066889632107023"^^xsd:float .
@@ -7067,6 +7070,12 @@ got:Malwyn_Frey a got:Male,
     got:hasName "Malwyn Frey"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.137123745819397"^^xsd:float .
+
+got:Mance_Rayder a got:Male,
+        got:Person ;
+    got:hasName "Mance Rayder"^^xsd:string ;
+    got:isAlive true ;
+    got:popularityScore "0.709030100334448"^^xsd:float .
 
 got:Mandon_Moore a got:Knight,
         got:Male,
@@ -7125,7 +7134,7 @@ got:Manfryd_Yew a got:Female,
 got:Marei a got:Male,
         got:Person ;
     got:age 25 ;
-    got:belongsToHouse got:Chatayas_brothel ;
+    got:belongsToHouse got:House_Chatayas_brothel ;
     got:hasName "Marei"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0434782608695652"^^xsd:float .
@@ -7237,7 +7246,7 @@ got:Marq_Piper a got:Knight,
 
 got:Marq_Rankenfell a got:Male,
         got:Person ;
-    got:belongsToHouse got:Nights_Watch ;
+    got:belongsToHouse got:House_Nights_Watch ;
     got:hasName "Marq Rankenfell"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0501672240802675"^^xsd:float .
@@ -7302,7 +7311,7 @@ got:Masha_Heddle a got:Female,
 
 got:Maslyn a got:Female,
         got:Person ;
-    got:belongsToHouse got:Nights_Watch ;
+    got:belongsToHouse got:House_Nights_Watch ;
     got:hasName "Maslyn"^^xsd:string ;
     got:isAlive false ;
     got:popularityScore "0.0133779264214046"^^xsd:float .
@@ -7344,7 +7353,7 @@ got:Matt a got:Male,
 
 got:Matthar a got:Male,
         got:Person ;
-    got:belongsToHouse got:Nights_Watch ;
+    got:belongsToHouse got:House_Nights_Watch ;
     got:hasName "Matthar"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0234113712374581"^^xsd:float .
@@ -7358,7 +7367,7 @@ got:Matthos_Seaworth a got:Male,
 
 got:Mawney a got:Male,
         got:Person ;
-    got:belongsToHouse got:Nights_Watch ;
+    got:belongsToHouse got:House_Nights_Watch ;
     got:hasName "Mawney"^^xsd:string ;
     got:isAlive false ;
     got:popularityScore "0.0234113712374581"^^xsd:float .
@@ -7421,7 +7430,7 @@ got:Meera_Reed a got:Female,
 
 got:Meg a got:Female,
         got:Person ;
-    got:belongsToHouse got:Brotherhood_Without_Banners ;
+    got:belongsToHouse got:House_Brotherhood_Without_Banners ;
     got:hasName "Meg"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0100334448160535"^^xsd:float .
@@ -7488,7 +7497,7 @@ got:Melicent a got:Female,
 
 got:Melisandre a got:Female,
         got:Person ;
-    got:belongsToHouse got:Rhllor ;
+    got:belongsToHouse got:House_Rhllor ;
     got:hasName "Melisandre"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.745819397993311"^^xsd:float .
@@ -7524,7 +7533,7 @@ got:Mellos a got:Male,
 
 got:Melly a got:Female,
         got:Person ;
-    got:belongsToHouse got:Brotherhood_Without_Banners ;
+    got:belongsToHouse got:House_Brotherhood_Without_Banners ;
     got:hasName "Melly"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0033444816053511"^^xsd:float .
@@ -7538,7 +7547,7 @@ got:Melwys_Rivers a got:Bastard,
 
 got:Meralyn a got:Female,
         got:Person ;
-    got:belongsToHouse got:Happy_Port ;
+    got:belongsToHouse got:House_Happy_Port ;
     got:hasName "Meralyn"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0267558528428093"^^xsd:float .
@@ -7561,7 +7570,7 @@ got:Merianne_Frey a got:Female,
 got:Meribald a got:Male,
         got:Person ;
     got:age 58 ;
-    got:belongsToHouse got:Faith_of_the_Seven ;
+    got:belongsToHouse got:House_Faith_of_the_Seven ;
     got:hasName "Meribald"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.103678929765886"^^xsd:float .
@@ -7582,7 +7591,7 @@ got:Merlon_Crakehall a got:Knight,
 
 got:Mero a got:Male,
         got:Person ;
-    got:belongsToHouse got:Second_Sons ;
+    got:belongsToHouse got:House_Second_Sons ;
     got:hasName "Mero"^^xsd:string ;
     got:isAlive false ;
     got:popularityScore "0.0468227424749163"^^xsd:float .
@@ -7596,7 +7605,7 @@ got:Merrell_Florent a got:Male,
 
 got:Merrit a got:Female,
         got:Person ;
-    got:belongsToHouse got:Brotherhood_without_banners ;
+    got:belongsToHouse got:House_Brotherhood_without_banners ;
     got:hasName "Merrit"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0100334448160535"^^xsd:float .
@@ -7654,7 +7663,7 @@ got:Missandei a got:Female,
 
 got:Moelle a got:Female,
         got:Person ;
-    got:belongsToHouse got:Faith_of_the_Seven ;
+    got:belongsToHouse got:House_Faith_of_the_Seven ;
     got:hasName "Moelle"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0301003344481605"^^xsd:float .
@@ -7715,7 +7724,7 @@ got:Moonshadow a got:Female,
 
 got:Moqorro a got:Male,
         got:Person ;
-    got:belongsToHouse got:Rhllor ;
+    got:belongsToHouse got:House_Rhllor ;
     got:hasName "Moqorro"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.123745819397993"^^xsd:float .
@@ -7843,7 +7852,7 @@ got:Mother_Mole a got:Female,
 
 got:Mudge_brotherhood a got:Female,
         got:Person ;
-    got:belongsToHouse got:Brotherhood_without_banners ;
+    got:belongsToHouse got:House_Brotherhood_without_banners ;
     got:hasName "Mudge (brotherhood)"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0"^^xsd:float .
@@ -7863,21 +7872,21 @@ got:Mudge_swineherd a got:Male,
 
 got:Mullin a got:Female,
         got:Person ;
-    got:belongsToHouse got:Nights_Watch ;
+    got:belongsToHouse got:House_Nights_Watch ;
     got:hasName "Mullin"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0234113712374581"^^xsd:float .
 
 got:Mully a got:Male,
         got:Person ;
-    got:belongsToHouse got:Nights_Watch ;
+    got:belongsToHouse got:House_Nights_Watch ;
     got:hasName "Mully"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0501672240802675"^^xsd:float .
 
 got:Munciter a got:Male,
         got:Person ;
-    got:belongsToHouse got:Alchemists_Guild ;
+    got:belongsToHouse got:House_Alchemists_Guild ;
     got:hasName "Munciter"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0066889632107023"^^xsd:float .
@@ -7903,7 +7912,7 @@ got:Murenmure a got:Male,
 
 got:Murmison a got:Male,
         got:Person ;
-    got:belongsToHouse got:Faith_of_the_Seven ;
+    got:belongsToHouse got:House_Faith_of_the_Seven ;
     got:hasName "Murmison"^^xsd:string ;
     got:isAlive false ;
     got:popularityScore "0.31438127090301"^^xsd:float .
@@ -7917,7 +7926,7 @@ got:Mushroom a got:Male,
 
 got:Muttering_Bill a got:Male,
         got:Person ;
-    got:belongsToHouse got:Nights_Watch ;
+    got:belongsToHouse got:House_Nights_Watch ;
     got:hasName "Muttering Bill"^^xsd:string ;
     got:isAlive false ;
     got:popularityScore "0.020066889632107"^^xsd:float .
@@ -8027,7 +8036,7 @@ got:Nage a got:Male,
 
 got:Nail a got:Female,
         got:Person ;
-    got:belongsToHouse got:Second_Sons ;
+    got:belongsToHouse got:House_Second_Sons ;
     got:hasName "Nail"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0133779264214046"^^xsd:float .
@@ -8074,10 +8083,12 @@ got:Nestor_Royce a got:Male,
 got:Nettles a got:Female,
         got:Person ;
     got:age 100 ;
-    got:belongsToHouse got:Blacks ;
+    got:belongsToHouse got:House_Blacks ;
     got:hasName "Nettles"^^xsd:string ;
     got:isAlive false ;
     got:popularityScore "0.0635451505016722"^^xsd:float .
+
+got:Night_King got:hasDragon got:Viserion .
 
 got:Nightingale a got:Female,
         got:Person ;
@@ -8087,7 +8098,7 @@ got:Nightingale a got:Female,
 
 got:Noho_Dimittis a got:Male,
         got:Person ;
-    got:belongsToHouse got:Iron_Bank_of_Braavos ;
+    got:belongsToHouse got:House_Iron_Bank_of_Braavos ;
     got:hasName "Noho Dimittis"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0133779264214046"^^xsd:float .
@@ -8107,7 +8118,7 @@ got:Norbert_Vance a got:Male,
 
 got:Norjen a got:Female,
         got:Person ;
-    got:belongsToHouse got:Drowned_men ;
+    got:belongsToHouse got:House_Drowned_men ;
     got:hasName "Norjen"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0066889632107023"^^xsd:float .
@@ -8133,7 +8144,7 @@ got:Norren a got:Male,
 
 got:Notch a got:Female,
         got:Person ;
-    got:belongsToHouse got:Brotherhood_without_Banners ;
+    got:belongsToHouse got:House_Brotherhood_without_Banners ;
     got:hasName "Notch"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0133779264214046"^^xsd:float .
@@ -8211,7 +8222,7 @@ got:Old_Crackbones a got:Male,
 
 got:Old_Grey_Gull a got:Male,
         got:Person ;
-    got:belongsToHouse got:Drowned_men ;
+    got:belongsToHouse got:House_Drowned_men ;
     got:hasName "Old Grey Gull"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0100334448160535"^^xsd:float .
@@ -8219,28 +8230,28 @@ got:Old_Grey_Gull a got:Male,
 got:Old_Henly a got:Male,
         got:Person ;
     got:age 79 ;
-    got:belongsToHouse got:Nights_Watch ;
+    got:belongsToHouse got:House_Nights_Watch ;
     got:hasName "Old Henly"^^xsd:string ;
     got:isAlive false ;
     got:popularityScore "0.0133779264214046"^^xsd:float .
 
 got:Old_Tattersalt a got:Male,
         got:Person ;
-    got:belongsToHouse got:Nights_Watch ;
+    got:belongsToHouse got:House_Nights_Watch ;
     got:hasName "Old Tattersalt"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0133779264214046"^^xsd:float .
 
 got:Ollidor a got:Male,
         got:Person ;
-    got:belongsToHouse got:Faith_of_the_Seven ;
+    got:belongsToHouse got:House_Faith_of_the_Seven ;
     got:hasName "Ollidor"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0167224080267558"^^xsd:float .
 
 got:Ollo_Lophand a got:Male,
         got:Person ;
-    got:belongsToHouse got:Nights_Watch ;
+    got:belongsToHouse got:House_Nights_Watch ;
     got:hasName "Ollo Lophand"^^xsd:string ;
     got:isAlive false ;
     got:popularityScore "0.0367892976588628"^^xsd:float .
@@ -8309,7 +8320,7 @@ got:Orell a got:Male,
 got:Orivel a got:Knight,
         got:Male,
         got:Person ;
-    got:belongsToHouse got:Kingsguard ;
+    got:belongsToHouse got:House_Kingsguard ;
     got:hasName "Orivel"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0033444816053511"^^xsd:float .
@@ -8366,7 +8377,7 @@ got:Oro_Tendyris a got:Male,
 
 got:Orphan_Oss a got:Female,
         got:Person ;
-    got:belongsToHouse got:Nights_Watch ;
+    got:belongsToHouse got:House_Nights_Watch ;
     got:hasName "Orphan Oss"^^xsd:string ;
     got:isAlive false ;
     got:popularityScore "0.0234113712374581"^^xsd:float .
@@ -8425,7 +8436,7 @@ got:Osmund_Kettleblack a got:Knight,
 
 got:Osmynd a got:Female,
         got:Person ;
-    got:belongsToHouse got:Faith_of_the_Seven ;
+    got:belongsToHouse got:House_Faith_of_the_Seven ;
     got:hasName "Osmynd"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0033444816053511"^^xsd:float .
@@ -8462,7 +8473,7 @@ got:Oswell_Whent a got:Knight,
 
 got:Oswyn a got:Female,
         got:Person ;
-    got:belongsToHouse got:Kingswood_Brotherhood ;
+    got:belongsToHouse got:House_Kingswood_Brotherhood ;
     got:hasName "Oswyn"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0033444816053511"^^xsd:float .
@@ -8484,7 +8495,7 @@ got:Otho_Bracken a got:Knight,
 
 got:Othor a got:Male,
         got:Person ;
-    got:belongsToHouse got:Nights_Watch ;
+    got:belongsToHouse got:House_Nights_Watch ;
     got:hasName "Othor"^^xsd:string ;
     got:isAlive false ;
     got:popularityScore "0.0568561872909698"^^xsd:float .
@@ -8520,7 +8531,7 @@ got:Ottyn_Wythers a got:Female,
 
 got:Owen a got:Male,
         got:Person ;
-    got:belongsToHouse got:Nights_Watch ;
+    got:belongsToHouse got:House_Nights_Watch ;
     got:hasName "Owen"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0367892976588628"^^xsd:float .
@@ -8589,7 +8600,7 @@ got:Pate_Mory a got:Male,
 
 got:Pate_Nights_Watch a got:Female,
         got:Person ;
-    got:belongsToHouse got:Nights_Watch ;
+    got:belongsToHouse got:House_Nights_Watch ;
     got:hasName "Pate (Night's Watch)"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0066889632107023"^^xsd:float .
@@ -8645,7 +8656,7 @@ got:Pearse_Caron a got:Male,
 got:Penny a got:Female,
         got:Person ;
     got:age 24 ;
-    got:belongsToHouse got:Second_Sons ;
+    got:belongsToHouse got:House_Second_Sons ;
     got:hasName "Penny"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.187290969899665"^^xsd:float .
@@ -8749,7 +8760,7 @@ got:Poetess a got:Female,
 
 got:Pollitor a got:Male,
         got:Person ;
-    got:belongsToHouse got:Alchemists_Guild ;
+    got:belongsToHouse got:House_Alchemists_Guild ;
     got:hasName "Pollitor"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0100334448160535"^^xsd:float .
@@ -8810,7 +8821,7 @@ got:Praed a got:Male,
 
 got:Prendahl_na_Ghezn a got:Male,
         got:Person ;
-    got:belongsToHouse got:Stormcrows ;
+    got:belongsToHouse got:House_Stormcrows ;
     got:hasName "Prendahl na Ghezn"^^xsd:string ;
     got:isAlive false ;
     got:popularityScore "0.040133779264214"^^xsd:float .
@@ -8838,14 +8849,14 @@ got:Pudding a got:Female,
 
 got:Puddingfoot a got:Female,
         got:Person ;
-    got:belongsToHouse got:Brotherhood_without_banners ;
+    got:belongsToHouse got:House_Brotherhood_without_banners ;
     got:hasName "Puddingfoot"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0033444816053511"^^xsd:float .
 
 got:Pyat_Pree a got:Female,
         got:Person ;
-    got:belongsToHouse got:Undying_Ones ;
+    got:belongsToHouse got:House_Undying_Ones ;
     got:hasName "Pyat Pree"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0969899665551839"^^xsd:float .
@@ -8860,7 +8871,7 @@ got:Pycelle a got:Male,
 
 got:Pyg a got:Female,
         got:Person ;
-    got:belongsToHouse got:Brave_Companions ;
+    got:belongsToHouse got:House_Brave_Companions ;
     got:hasName "Pyg"^^xsd:string ;
     got:isAlive false ;
     got:popularityScore "0.0468227424749163"^^xsd:float .
@@ -8874,7 +8885,7 @@ got:Pylos a got:Male,
 
 got:Pypar a got:Male,
         got:Person ;
-    got:belongsToHouse got:Nights_Watch ;
+    got:belongsToHouse got:House_Nights_Watch ;
     got:hasName "Pypar"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.113712374581939"^^xsd:float .
@@ -8941,7 +8952,7 @@ got:Qarro_Volentin a got:Female,
 
 got:Qhorin_Halfhand a got:Male,
         got:Person ;
-    got:belongsToHouse got:Nights_Watch ;
+    got:belongsToHouse got:House_Nights_Watch ;
     got:hasName "Qhorin Halfhand"^^xsd:string ;
     got:isAlive false ;
     got:popularityScore "0.210702341137123"^^xsd:float .
@@ -9087,7 +9098,7 @@ got:Quincy_Cox a got:Knight,
 got:Quort a got:Male,
         got:Person ;
     got:age 14 ;
-    got:belongsToHouse got:wildling ;
+    got:belongsToHouse got:House_wildling ;
     got:hasName "Quort"^^xsd:string ;
     got:isAlive false ;
     got:popularityScore "0.0100334448160535"^^xsd:float .
@@ -9107,7 +9118,7 @@ got:Qyle a got:Male,
 
 got:Racallio_Ryndoon a got:Male,
         got:Person ;
-    got:belongsToHouse got:Kingdom_of_the_Three_Daughters ;
+    got:belongsToHouse got:House_Kingdom_of_the_Three_Daughters ;
     got:hasName "Racallio Ryndoon"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0100334448160535"^^xsd:float .
@@ -9184,14 +9195,14 @@ got:Randa a got:Female,
 
 got:Rast a got:Male,
         got:Person ;
-    got:belongsToHouse got:Nights_Watch ;
+    got:belongsToHouse got:House_Nights_Watch ;
     got:hasName "Rast"^^xsd:string ;
     got:isAlive false ;
     got:popularityScore "0.0668896321070234"^^xsd:float .
 
 got:Rat_Cook a got:Male,
         got:Person ;
-    got:belongsToHouse got:Nights_Watch ;
+    got:belongsToHouse got:House_Nights_Watch ;
     got:hasName "Rat Cook"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0568561872909698"^^xsd:float .
@@ -9266,7 +9277,7 @@ got:Raynald_Westerling a got:Knight,
 
 got:Raynard a got:Male,
         got:Person ;
-    got:belongsToHouse got:Faith_of_the_Seven ;
+    got:belongsToHouse got:House_Faith_of_the_Seven ;
     got:hasName "Raynard"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.020066889632107"^^xsd:float .
@@ -9281,7 +9292,7 @@ got:Raynard_Ruttiger a got:Female,
 
 got:Red_Alyn_of_the_Rosewood a got:Male,
         got:Person ;
-    got:belongsToHouse got:Nights_Watch ;
+    got:belongsToHouse got:House_Nights_Watch ;
     got:hasName "Red Alyn of the Rosewood"^^xsd:string ;
     got:isAlive false ;
     got:popularityScore "0.0133779264214046"^^xsd:float .
@@ -9316,7 +9327,7 @@ got:Redtusk a got:Knight,
 
 got:Redwyn a got:Female,
         got:Person ;
-    got:belongsToHouse got:Nights_Watch ;
+    got:belongsToHouse got:House_Nights_Watch ;
     got:hasName "Redwyn"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0066889632107023"^^xsd:float .
@@ -9619,7 +9630,7 @@ got:Robert_Flowers a got:Bastard,
         got:Knight,
         got:Male,
         got:Person ;
-    got:belongsToHouse got:Kingsguard ;
+    got:belongsToHouse got:House_Kingsguard ;
     got:hasName "Robert Flowers"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.060200668896321"^^xsd:float .
@@ -9671,7 +9682,7 @@ got:Robin_Greyjoy a got:Male,
 got:Robin_Hill a got:Bastard,
         got:Male,
         got:Person ;
-    got:belongsToHouse got:Nights_Watch ;
+    got:belongsToHouse got:House_Nights_Watch ;
     got:hasName "Robin Hill"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0568561872909698"^^xsd:float .
@@ -9977,7 +9988,7 @@ got:Roose_Ryswell a got:Male,
 
 got:Rorge a got:Male,
         got:Person ;
-    got:belongsToHouse got:Brave_Companions ;
+    got:belongsToHouse got:House_Brave_Companions ;
     got:hasName "Rorge"^^xsd:string ;
     got:isAlive false ;
     got:popularityScore "0.167224080267558"^^xsd:float .
@@ -10012,7 +10023,7 @@ got:Rosey a got:Female,
 got:Rossart a got:King,
         got:Male,
         got:Person ;
-    got:belongsToHouse got:Alchemists_Guild ;
+    got:belongsToHouse got:House_Alchemists_Guild ;
     got:hasName "Rossart"^^xsd:string ;
     got:isAlive false ;
     got:popularityScore "0.367892976588628"^^xsd:float .
@@ -10032,7 +10043,7 @@ got:Royce_Coldwater a got:Female,
 
 got:Rudge a got:Female,
         got:Person ;
-    got:belongsToHouse got:Nights_Watch ;
+    got:belongsToHouse got:House_Nights_Watch ;
     got:hasName "Rudge"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0"^^xsd:float .
@@ -10082,7 +10093,7 @@ got:Rupert_Crabb a got:Female,
 
 got:Rus a got:Female,
         got:Person ;
-    got:belongsToHouse got:Drowned_men ;
+    got:belongsToHouse got:House_Drowned_men ;
     got:hasName "Rus"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0100334448160535"^^xsd:float .
@@ -10090,7 +10101,7 @@ got:Rus a got:Female,
 got:Rusty_Flowers a got:Bastard,
         got:Male,
         got:Person ;
-    got:belongsToHouse got:Nights_Watch ;
+    got:belongsToHouse got:House_Nights_Watch ;
     got:hasName "Rusty Flowers"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0"^^xsd:float .
@@ -10142,7 +10153,7 @@ got:Ryk a got:Male,
 
 got:Ryles a got:Female,
         got:Person ;
-    got:belongsToHouse got:Nights_Watch ;
+    got:belongsToHouse got:House_Nights_Watch ;
     got:hasName "Ryles"^^xsd:string ;
     got:isAlive false ;
     got:popularityScore "0.0133779264214046"^^xsd:float .
@@ -10188,7 +10199,7 @@ got:Saera_Targaryen a got:Male,
 
 got:Sailors_Wife a got:Female,
         got:Person ;
-    got:belongsToHouse got:Happy_Port ;
+    got:belongsToHouse got:House_Happy_Port ;
     got:hasName "Sailor's Wife"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0468227424749163"^^xsd:float .
@@ -10202,14 +10213,14 @@ got:Salladhor_Saan a got:Male,
 
 got:Sallor a got:Male,
         got:Person ;
-    got:belongsToHouse got:Stormcrows ;
+    got:belongsToHouse got:House_Stormcrows ;
     got:hasName "Sallor"^^xsd:string ;
     got:isAlive false ;
     got:popularityScore "0.0301003344481605"^^xsd:float .
 
 got:Salloreon a got:Male,
         got:Person ;
-    got:belongsToHouse got:Antler_Men ;
+    got:belongsToHouse got:House_Antler_Men ;
     got:hasName "Salloreon"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0133779264214046"^^xsd:float .
@@ -10241,7 +10252,7 @@ got:Samwell_Stone a got:Bastard,
 got:Samwell_Tarly a got:Male,
         got:Person ;
     got:age 22 ;
-    got:belongsToHouse got:Nights_Watch ;
+    got:belongsToHouse got:House_Nights_Watch ;
     got:hasName "Samwell Tarly"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.969899665551839"^^xsd:float .
@@ -10306,7 +10317,7 @@ got:Sarya_Whent a got:Female,
 got:Satin a got:Male,
         got:Person ;
     got:age 25 ;
-    got:belongsToHouse got:Nights_Watch ;
+    got:belongsToHouse got:House_Nights_Watch ;
     got:hasName "Satin"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.103678929765886"^^xsd:float .
@@ -10320,7 +10331,7 @@ got:Sawane_Botley a got:Male,
 
 got:Sawwood a got:Male,
         got:Person ;
-    got:belongsToHouse got:Nights_Watch ;
+    got:belongsToHouse got:House_Nights_Watch ;
     got:hasName "Sawwood"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0100334448160535"^^xsd:float .
@@ -10333,7 +10344,7 @@ got:Scarb a got:Female,
 
 got:Scolera a got:Female,
         got:Person ;
-    got:belongsToHouse got:Faith_of_the_Seven ;
+    got:belongsToHouse got:House_Faith_of_the_Seven ;
     got:hasName "Scolera"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0167224080267558"^^xsd:float .
@@ -10407,7 +10418,7 @@ got:Serra_Frey a got:Female,
 got:Serwyn_of_the_Mirror_Shield a got:Knight,
         got:Male,
         got:Person ;
-    got:belongsToHouse got:Kingsguard ;
+    got:belongsToHouse got:House_Kingsguard ;
     got:hasName "Serwyn of the Mirror Shield"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0"^^xsd:float .
@@ -10421,14 +10432,14 @@ got:Shae a got:Female,
 
 got:Shagga a got:Male,
         got:Person ;
-    got:belongsToHouse got:Stone_Crows ;
+    got:belongsToHouse got:House_Stone_Crows ;
     got:hasName "Shagga"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0735785953177257"^^xsd:float .
 
 got:Shagwell a got:Male,
         got:Person ;
-    got:belongsToHouse got:Brave_Companions ;
+    got:belongsToHouse got:House_Brave_Companions ;
     got:hasName "Shagwell"^^xsd:string ;
     got:isAlive false ;
     got:popularityScore "0.0836120401337792"^^xsd:float .
@@ -10576,21 +10587,21 @@ got:Sloey a got:Female,
 
 got:Small_Paul a got:Male,
         got:Person ;
-    got:belongsToHouse got:Nights_Watch ;
+    got:belongsToHouse got:House_Nights_Watch ;
     got:hasName "Small Paul"^^xsd:string ;
     got:isAlive false ;
     got:popularityScore "0.0267558528428093"^^xsd:float .
 
 got:Smiling_Knight a got:Male,
         got:Person ;
-    got:belongsToHouse got:Kingswood_Brotherhood ;
+    got:belongsToHouse got:House_Kingswood_Brotherhood ;
     got:hasName "Smiling Knight"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.040133779264214"^^xsd:float .
 
 got:Softfoot a got:Male,
         got:Person ;
-    got:belongsToHouse got:Nights_Watch ;
+    got:belongsToHouse got:House_Nights_Watch ;
     got:hasName "Softfoot"^^xsd:string ;
     got:isAlive false ;
     got:popularityScore "0.020066889632107"^^xsd:float .
@@ -10604,7 +10615,7 @@ got:Sour_Alyn a got:Male,
 
 got:Spare_Boot a got:Male,
         got:Person ;
-    got:belongsToHouse got:Nights_Watch ;
+    got:belongsToHouse got:House_Nights_Watch ;
     got:hasName "Spare Boot"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0133779264214046"^^xsd:float .
@@ -10617,7 +10628,7 @@ got:Spotted_Cat a got:Male,
 
 got:Spotted_Pate_of_Maidenpool a got:Male,
         got:Person ;
-    got:belongsToHouse got:Nights_Watch ;
+    got:belongsToHouse got:House_Nights_Watch ;
     got:hasName "Spotted Pate of Maidenpool"^^xsd:string ;
     got:isAlive false ;
     got:popularityScore "0.0133779264214046"^^xsd:float .
@@ -10654,7 +10665,7 @@ got:Stafford_Lannister a got:Knight,
 
 got:Stalwart_Shield a got:Female,
         got:Person ;
-    got:belongsToHouse got:Unsullied ;
+    got:belongsToHouse got:House_Unsullied ;
     got:hasName "Stalwart Shield"^^xsd:string ;
     got:isAlive false ;
     got:popularityScore "0.0434782608695652"^^xsd:float .
@@ -10752,7 +10763,7 @@ got:Steffon_Varner a got:Male,
 
 got:Stiv a got:Female,
         got:Person ;
-    got:belongsToHouse got:Nights_Watch ;
+    got:belongsToHouse got:House_Nights_Watch ;
     got:hasName "Stiv"^^xsd:string ;
     got:isAlive false ;
     got:popularityScore "0.0334448160535117"^^xsd:float .
@@ -10772,7 +10783,7 @@ got:Stonehand a got:Female,
 got:Stonesnake a got:Male,
         got:Person ;
     got:age 55 ;
-    got:belongsToHouse got:Nights_Watch ;
+    got:belongsToHouse got:House_Nights_Watch ;
     got:hasName "Stonesnake"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0568561872909698"^^xsd:float .
@@ -10786,7 +10797,7 @@ got:Stygg a got:Female,
 
 got:Styr a got:Male,
         got:Person ;
-    got:belongsToHouse got:Thenn ;
+    got:belongsToHouse got:House_Thenn ;
     got:hasName "Styr"^^xsd:string ;
     got:isAlive false ;
     got:popularityScore "0.140468227424749"^^xsd:float .
@@ -10930,7 +10941,7 @@ got:Tanselle a got:Female,
 
 got:Tansy a got:Female,
         got:Person ;
-    got:belongsToHouse got:Peach ;
+    got:belongsToHouse got:House_Peach ;
     got:hasName "Tansy"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0234113712374581"^^xsd:float .
@@ -10957,7 +10968,7 @@ got:Tarber a got:Male,
 
 got:Tarle a got:Male,
         got:Person ;
-    got:belongsToHouse got:Drowned_men ;
+    got:belongsToHouse got:House_Drowned_men ;
     got:hasName "Tarle"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0267558528428093"^^xsd:float .
@@ -11060,7 +11071,7 @@ got:Thistle a got:Female,
 
 got:Thoren_Smallwood a got:Male,
         got:Person ;
-    got:belongsToHouse got:Nights_Watch ;
+    got:belongsToHouse got:House_Nights_Watch ;
     got:hasName "Thoren Smallwood"^^xsd:string ;
     got:isAlive false ;
     got:popularityScore "0.0869565217391304"^^xsd:float .
@@ -11081,7 +11092,7 @@ got:Three-Tooth a got:Female,
 
 got:Three_Toes a got:Male,
         got:Person ;
-    got:belongsToHouse got:Brave_Companions ;
+    got:belongsToHouse got:House_Brave_Companions ;
     got:hasName "Three Toes"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0133779264214046"^^xsd:float .
@@ -11089,21 +11100,21 @@ got:Three_Toes a got:Male,
 got:Tim_Stone a got:Bastard,
         got:Female,
         got:Person ;
-    got:belongsToHouse got:Nights_Watch ;
+    got:belongsToHouse got:House_Nights_Watch ;
     got:hasName "Tim Stone"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0167224080267558"^^xsd:float .
 
 got:Tim_Tangletongue a got:Female,
         got:Person ;
-    got:belongsToHouse got:Nights_Watch ;
+    got:belongsToHouse got:House_Nights_Watch ;
     got:hasName "Tim Tangletongue"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0133779264214046"^^xsd:float .
 
 got:Timeon a got:Male,
         got:Person ;
-    got:belongsToHouse got:Brave_Companions ;
+    got:belongsToHouse got:House_Brave_Companions ;
     got:hasName "Timeon"^^xsd:string ;
     got:isAlive false ;
     got:popularityScore "0.0568561872909698"^^xsd:float .
@@ -11111,14 +11122,14 @@ got:Timeon a got:Male,
 got:Timett a got:Male,
         got:Person ;
     got:age 27 ;
-    got:belongsToHouse got:Burned_Men ;
+    got:belongsToHouse got:House_Burned_Men ;
     got:hasName "Timett"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0735785953177257"^^xsd:float .
 
 got:Timett_father a got:Female,
         got:Person ;
-    got:belongsToHouse got:Burned_Men ;
+    got:belongsToHouse got:House_Burned_Men ;
     got:hasName "Timett (father)"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0133779264214046"^^xsd:float .
@@ -11159,7 +11170,7 @@ got:Tobho_Mott a got:Male,
 
 got:Todder a got:Male,
         got:Person ;
-    got:belongsToHouse got:Nights_Watch ;
+    got:belongsToHouse got:House_Nights_Watch ;
     got:hasName "Todder"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0367892976588628"^^xsd:float .
@@ -11178,7 +11189,7 @@ got:Toefinger a got:Male,
 
 got:Togg_Joth a got:Male,
         got:Person ;
-    got:belongsToHouse got:Brave_Companions ;
+    got:belongsToHouse got:House_Brave_Companions ;
     got:hasName "Togg Joth"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0167224080267558"^^xsd:float .
@@ -11201,7 +11212,7 @@ got:Tom_Costayne a got:Female,
 got:Tom_of_Sevenstreams a got:Male,
         got:Person ;
     got:age 65 ;
-    got:belongsToHouse got:Brotherhood_without_banners ;
+    got:belongsToHouse got:House_Brotherhood_without_banners ;
     got:hasName "Tom of Sevenstreams"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.153846153846153"^^xsd:float .
@@ -11239,7 +11250,7 @@ got:Tommen_Costayne a got:Female,
 
 got:Torbert a got:Male,
         got:Person ;
-    got:belongsToHouse got:Faith_of_the_Seven ;
+    got:belongsToHouse got:House_Faith_of_the_Seven ;
     got:hasName "Torbert"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0167224080267558"^^xsd:float .
@@ -11258,7 +11269,7 @@ got:Tormund a got:Male,
 
 got:Torrek a got:Female,
         got:Person ;
-    got:belongsToHouse got:Stone_Crows ;
+    got:belongsToHouse got:House_Stone_Crows ;
     got:hasName "Torrek"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0"^^xsd:float .
@@ -11353,7 +11364,7 @@ got:Tristifer_V_Mudd a got:Male,
 got:Tristimun a got:Knight,
         got:Male,
         got:Person ;
-    got:belongsToHouse got:Sea_watch ;
+    got:belongsToHouse got:House_Sea_watch ;
     got:hasName "Tristimun"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0"^^xsd:float .
@@ -11397,7 +11408,7 @@ got:Tuffleberry a got:Female,
 
 got:Tumberjon a got:Female,
         got:Person ;
-    got:belongsToHouse got:Nights_Watch ;
+    got:belongsToHouse got:House_Nights_Watch ;
     got:hasName "Tumberjon"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0100334448160535"^^xsd:float .
@@ -11424,7 +11435,7 @@ got:Turquin a got:Male,
 
 got:Tybero_Istarion a got:Male,
         got:Person ;
-    got:belongsToHouse got:Second_Sons ;
+    got:belongsToHouse got:House_Second_Sons ;
     got:hasName "Tybero Istarion"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0133779264214046"^^xsd:float .
@@ -11456,7 +11467,7 @@ got:Tybolt_Lannister a got:Knight,
 
 got:Tycho_Nestoris a got:Male,
         got:Person ;
-    got:belongsToHouse got:Iron_Bank_of_Braavos ;
+    got:belongsToHouse got:House_Iron_Bank_of_Braavos ;
     got:hasName "Tycho Nestoris"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0869565217391304"^^xsd:float .
@@ -11552,7 +11563,7 @@ got:Tywin_Frey_son_of_Raymund a got:Male,
 
 got:Ulf_son_of_Umar a got:Male,
         got:Person ;
-    got:belongsToHouse got:Moon_Brothers ;
+    got:belongsToHouse got:House_Moon_Brothers ;
     got:hasName "Ulf son of Umar"^^xsd:string ;
     got:isAlive false ;
     got:popularityScore "0.0234113712374581"^^xsd:float .
@@ -11567,7 +11578,7 @@ got:Ulf_the_Ill a got:Female,
 got:Ulf_the_White a got:Knight,
         got:Male,
         got:Person ;
-    got:belongsToHouse got:Blacks ;
+    got:belongsToHouse got:House_Blacks ;
     got:hasName "Ulf the White"^^xsd:string ;
     got:isAlive false ;
     got:popularityScore "0.060200668896321"^^xsd:float .
@@ -11581,7 +11592,7 @@ got:Uller a got:Male,
 
 got:Ulmer a got:Male,
         got:Person ;
-    got:belongsToHouse got:Kingswood_Brotherhood ;
+    got:belongsToHouse got:House_Kingswood_Brotherhood ;
     got:hasName "Ulmer"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0535117056856187"^^xsd:float .
@@ -11604,7 +11615,7 @@ got:Ulwyck_Uller a got:Knight,
 
 got:Umar a got:Female,
         got:Person ;
-    got:belongsToHouse got:Moon_Brothers ;
+    got:belongsToHouse got:House_Moon_Brothers ;
     got:hasName "Umar"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0066889632107023"^^xsd:float .
@@ -11618,14 +11629,14 @@ got:Umfred a got:Female,
 
 got:Umma a got:Female,
         got:Person ;
-    got:belongsToHouse got:Faceless_Men ;
+    got:belongsToHouse got:House_Faceless_Men ;
     got:hasName "Umma"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0167224080267558"^^xsd:float .
 
 got:Unella a got:Female,
         got:Person ;
-    got:belongsToHouse got:Faith_of_the_Seven ;
+    got:belongsToHouse got:House_Faith_of_the_Seven ;
     got:hasName "Unella"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.020066889632107"^^xsd:float .
@@ -11665,7 +11676,7 @@ got:Urron_Greyiron a got:Male,
 
 got:Urswyck a got:Male,
         got:Person ;
-    got:belongsToHouse got:Brave_Companions ;
+    got:belongsToHouse got:House_Brave_Companions ;
     got:hasName "Urswyck"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0301003344481605"^^xsd:float .
@@ -11702,7 +11713,7 @@ got:Uthor_Underleaf a got:Knight,
 
 got:Utt a got:Male,
         got:Person ;
-    got:belongsToHouse got:Brave_Companions ;
+    got:belongsToHouse got:House_Brave_Companions ;
     got:hasName "Utt"^^xsd:string ;
     got:isAlive false ;
     got:popularityScore "0.0234113712374581"^^xsd:float .
@@ -11754,7 +11765,7 @@ got:Vardis_Egen a got:Knight,
 
 got:Vargo_Hoat a got:Male,
         got:Person ;
-    got:belongsToHouse got:Brave_Companions ;
+    got:belongsToHouse got:House_Brave_Companions ;
     got:hasName "Vargo Hoat"^^xsd:string ;
     got:isAlive false ;
     got:popularityScore "0.210702341137123"^^xsd:float .
@@ -12008,7 +12019,7 @@ got:Waldon_Wynch a got:Male,
 
 got:Walgrave a got:Male,
         got:Person ;
-    got:belongsToHouse got:Maesters ;
+    got:belongsToHouse got:House_Maesters ;
     got:hasName "Walgrave"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0434782608695652"^^xsd:float .
@@ -12023,7 +12034,7 @@ got:Wallace_Waynwood a got:Knight,
 
 got:Wallen a got:Female,
         got:Person ;
-    got:belongsToHouse got:Nights_Watch ;
+    got:belongsToHouse got:House_Nights_Watch ;
     got:hasName "Wallen"^^xsd:string ;
     got:isAlive false ;
     got:popularityScore "0.020066889632107"^^xsd:float .
@@ -12107,14 +12118,14 @@ got:Wate a got:Female,
 
 got:Watt a got:Male,
         got:Person ;
-    got:belongsToHouse got:Nights_Watch ;
+    got:belongsToHouse got:House_Nights_Watch ;
     got:hasName "Watt"^^xsd:string ;
     got:isAlive false ;
     got:popularityScore "0.0167224080267558"^^xsd:float .
 
 got:Watty a got:Female,
         got:Person ;
-    got:belongsToHouse got:Brotherhood_without_banners ;
+    got:belongsToHouse got:House_Brotherhood_without_banners ;
     got:hasName "Watty"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0133779264214046"^^xsd:float .
@@ -12151,7 +12162,7 @@ got:Weese a got:Male,
 
 got:Wenda a got:Female,
         got:Person ;
-    got:belongsToHouse got:Kingswood_Brotherhood ;
+    got:belongsToHouse got:House_Kingswood_Brotherhood ;
     got:hasName "Wenda"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0167224080267558"^^xsd:float .
@@ -12227,7 +12238,7 @@ got:Wilbert_Osgrey a got:Knight,
 
 got:Will a got:Male,
         got:Person ;
-    got:belongsToHouse got:Nights_Watch ;
+    got:belongsToHouse got:House_Nights_Watch ;
     got:hasName "Will"^^xsd:string ;
     got:isAlive false ;
     got:popularityScore "0.163879598662207"^^xsd:float .
@@ -12381,7 +12392,7 @@ got:Willit a got:Male,
 got:Willow_Heddle a got:Female,
         got:Person ;
     got:age 16 ;
-    got:belongsToHouse got:Brotherhood_Without_Banners ;
+    got:belongsToHouse got:House_Brotherhood_Without_Banners ;
     got:hasName "Willow Heddle"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0334448160535117"^^xsd:float .
@@ -12487,7 +12498,7 @@ got:Wynton_Stout a got:Knight,
 
 got:Xaro_Xhoan_Daxos a got:Male,
         got:Person ;
-    got:belongsToHouse got:Thirteen ;
+    got:belongsToHouse got:House_Thirteen ;
     got:hasName "Xaro Xhoan Daxos"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.244147157190635"^^xsd:float .
@@ -12515,14 +12526,14 @@ got:Ygon_Farwynd a got:Male,
 got:Ygritte a got:Male,
         got:Person ;
     got:age 19 ;
-    got:belongsToHouse got:Mance_Rayder ;
+    got:belongsToHouse got:House_Mance_Rayder ;
     got:hasName "Ygritte"^^xsd:string ;
     got:isAlive false ;
     got:popularityScore "0.244147157190635"^^xsd:float .
 
 got:Yna a got:Male,
         got:Person ;
-    got:belongsToHouse got:Happy_Port ;
+    got:belongsToHouse got:House_Happy_Port ;
     got:hasName "Yna"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.020066889632107"^^xsd:float .
@@ -12543,7 +12554,7 @@ got:Yohn_Royce a got:Male,
 
 got:Yoren a got:Female,
         got:Person ;
-    got:belongsToHouse got:Nights_Watch ;
+    got:belongsToHouse got:House_Nights_Watch ;
     got:hasName "Yoren"^^xsd:string ;
     got:isAlive false ;
     got:popularityScore "0.267558528428093"^^xsd:float .
@@ -12570,7 +12581,7 @@ got:Yormwell a got:Female,
 got:Young_Henly a got:Male,
         got:Person ;
     got:age 59 ;
-    got:belongsToHouse got:Nights_Watch ;
+    got:belongsToHouse got:House_Nights_Watch ;
     got:hasName "Young Henly"^^xsd:string ;
     got:isAlive false ;
     got:popularityScore "0.0133779264214046"^^xsd:float .
@@ -12618,7 +12629,7 @@ got:Zia_Frey a got:Female,
 
 got:Zollo a got:Male,
         got:Person ;
-    got:belongsToHouse got:Brave_Companions ;
+    got:belongsToHouse got:House_Brave_Companions ;
     got:hasName "Zollo"^^xsd:string ;
     got:isAlive true ;
     got:popularityScore "0.0367892976588628"^^xsd:float .
@@ -12739,8 +12750,6 @@ got:Antario_Jast a got:Male,
     got:isAlive true ;
     got:popularityScore "0.0802675585284281"^^xsd:float .
 
-got:Antler_Men a got:House .
-
 got:Argella_Durrandon a got:Person .
 
 got:Arra_Norrey a got:Person .
@@ -12810,6 +12819,9 @@ got:Baelor_I_Targaryen a got:Male,
     got:isAlive false ;
     got:popularityScore "0.501672240802675"^^xsd:float .
 
+got:Balerion a got:Dragon ;
+    got:hasName "Balerion"^^xsd:string .
+
 got:Balman_Byrch a got:Knight,
         got:Male,
         got:Person ;
@@ -12825,8 +12837,6 @@ got:Balon_Greyjoy a got:Male,
     got:hasName "Balon Greyjoy"^^xsd:string ;
     got:isAlive false ;
     got:popularityScore "0.739130434782608"^^xsd:float .
-
-got:Band_of_Nine a got:House .
 
 got:Barbrey_Ryswell a got:Person .
 
@@ -12897,9 +12907,10 @@ got:Bronn a got:Knight,
     got:isAlive true ;
     got:popularityScore "0.471571906354515"^^xsd:float .
 
-got:Brotherhood_without_Banners a got:House .
-
 got:Calla_Blackfyre a got:Person .
+
+got:Caraxes a got:Dragon ;
+    got:hasName "Caraxes"^^xsd:string .
 
 got:Catelyn_Stark a got:Female,
         got:Person ;
@@ -12916,10 +12927,6 @@ got:Cerissa_Brax a got:Person .
 
 got:Charlton a got:Person .
 
-got:Citadel a got:House .
-
-got:City_Watch_of_Kings_Landing a got:House .
-
 got:Cleos_Frey a got:Knight,
         got:Male,
         got:Person ;
@@ -12929,8 +12936,6 @@ got:Cleos_Frey a got:Knight,
     got:hasSpouse got:Jeyne_Darry ;
     got:isAlive false ;
     got:popularityScore "0.247491638795986"^^xsd:float .
-
-got:Company_of_the_Cat a got:House .
 
 got:Corenna_Swann a got:Person .
 
@@ -13073,6 +13078,9 @@ got:Drogo a got:Female,
     got:hasSpouse got:Daenerys_Targaryen ;
     got:isAlive false ;
     got:popularityScore "0.558528428093645"^^xsd:float .
+
+got:Drogon a got:Dragon ;
+    got:hasName "Drogon"^^xsd:string .
 
 got:Dyanna_Dayne a got:Female,
         got:Person .
@@ -13243,8 +13251,6 @@ got:Gowen_Baratheon a got:Male,
     got:isAlive true ;
     got:popularityScore "0.0167224080267558"^^xsd:float .
 
-got:Graces a got:House .
-
 got:Gunthor_Hightower a got:Female,
         got:Knight,
         got:Person ;
@@ -13293,7 +13299,11 @@ got:Hoster_Tully a got:Male,
     got:isAlive false ;
     got:popularityScore "0.331103678929765"^^xsd:float .
 
+got:House_Antler_Men a got:House .
+
 got:House_Ball a got:House .
+
+got:House_Band_of_Nine a got:House .
 
 got:House_Banefort a got:House .
 
@@ -13317,6 +13327,8 @@ got:House_Borrell a got:House .
 
 got:House_Broom a got:House .
 
+got:House_Brotherhood_without_Banners a got:House .
+
 got:House_Brune_of_the_Dyre_Den a got:House .
 
 got:House_Buckler a got:House .
@@ -13337,11 +13349,17 @@ got:House_Chester a got:House .
 
 got:House_Chyttering a got:House .
 
+got:House_Citadel a got:House .
+
+got:House_City_Watch_of_Kings_Landing a got:House .
+
 got:House_Cockshaw a got:House .
 
 got:House_Coldwater a got:House .
 
 got:House_Cole a got:House .
+
+got:House_Company_of_the_Cat a got:House .
 
 got:House_Condon a got:House .
 
@@ -13391,6 +13409,8 @@ got:House_Gower a got:House .
 
 got:House_Graceford a got:House .
 
+got:House_Graces a got:House .
+
 got:House_Grandison a got:House .
 
 got:House_Greenhill a got:House .
@@ -13425,6 +13445,8 @@ got:House_Horpe a got:House .
 
 got:House_Jast a got:House .
 
+got:House_Khal a got:House .
+
 got:House_Lannister_of_Casterly_Rock a got:House .
 
 got:House_Lannister_of_Lannisport a got:House .
@@ -13441,7 +13463,11 @@ got:House_Longwaters a got:House .
 
 got:House_Lychester a got:House .
 
+got:House_Maesters a got:House .
+
 got:House_Mallery a got:House .
+
+got:House_Mance_Rayder a got:House .
 
 got:House_Massey a got:House .
 
@@ -13463,11 +13489,17 @@ got:House_Norridge a got:House .
 
 got:House_Nymeros_Martell a got:House .
 
+got:House_Peach a got:House .
+
 got:House_Peckledon a got:House .
 
 got:House_Pemford a got:House .
 
 got:House_Potter a got:House .
+
+got:House_Pureborn a got:House .
+
+got:House_Queensguard a got:House .
 
 got:House_Rambton a got:House .
 
@@ -13487,6 +13519,8 @@ got:House_Sarsfield a got:House .
 
 got:House_Sawyer a got:House .
 
+got:House_Sea_watch a got:House .
+
 got:House_Shett_of_Gull_Tower a got:House .
 
 got:House_Sparr a got:House .
@@ -13501,11 +13535,21 @@ got:House_Strickland a got:House .
 
 got:House_Suggs a got:House .
 
+got:House_Summer_Islands a got:House .
+
 got:House_Sunderland a got:House .
 
 got:House_Tawney a got:House .
 
 got:House_Templeton a got:House .
+
+got:House_The_Citadel a got:House .
+
+got:House_Thenn a got:House .
+
+got:House_Thirteen a got:House .
+
+got:House_Three-eyed_crow a got:House .
 
 got:House_Toland a got:House .
 
@@ -13514,6 +13558,8 @@ got:House_Trant a got:House .
 got:House_Turnberry a got:House .
 
 got:House_Tyrell_of_Brightwater_Keep a got:House .
+
+got:House_Undying_Ones a got:House .
 
 got:House_Varner a got:House .
 
@@ -13529,6 +13575,10 @@ got:House_Wayn a got:House .
 
 got:House_Weaver a got:House .
 
+got:House_Windblown a got:House .
+
+got:House_Wise_Masters a got:House .
+
 got:House_Wode a got:House .
 
 got:House_Woods a got:House .
@@ -13539,6 +13589,8 @@ got:House_Yarwyck a got:House .
 
 got:House_Yew a got:House .
 
+got:House_brotherhood_without_banners a got:House .
+
 got:House_of_Ghazeen a got:House .
 
 got:House_of_Kandaq a got:House .
@@ -13546,6 +13598,8 @@ got:House_of_Kandaq a got:House .
 got:House_of_Merreq a got:House .
 
 got:House_of_Reznak a got:House .
+
+got:House_wildling a got:House .
 
 got:Howland_Reed a got:Male,
         got:Person ;
@@ -13722,8 +13776,6 @@ got:Jyanna_Frey a got:Female,
     got:hasSpouse got:Benfrey_Frey ;
     got:isAlive true ;
     got:popularityScore "0.0501672240802675"^^xsd:float .
-
-got:Khal a got:House .
 
 got:Kyra_Frey a got:Female,
         got:Person ;
@@ -13906,15 +13958,6 @@ got:Maegelle_Frey a got:Female,
 got:Maekar_I_Targaryen a got:Male,
         got:Person .
 
-got:Maesters a got:House .
-
-got:Mance_Rayder a got:House,
-        got:Male,
-        got:Person ;
-    got:hasName "Mance Rayder"^^xsd:string ;
-    got:isAlive true ;
-    got:popularityScore "0.709030100334448"^^xsd:float .
-
 got:Margaery_Tyrell a got:Female,
         got:King,
         got:Person ;
@@ -13995,6 +14038,9 @@ got:Melessa_Florent a got:Female,
     got:hasSpouse got:Randyll_Tarly ;
     got:isAlive true ;
     got:popularityScore "0.0869565217391304"^^xsd:float .
+
+got:Meleys a got:Dragon ;
+    got:hasName "Meleys"^^xsd:string .
 
 got:Mellario_of_Norvos a got:Person .
 
@@ -14174,8 +14220,6 @@ got:Paxter_Redwyne a got:Male,
     got:isAlive true ;
     got:popularityScore "0.511705685618729"^^xsd:float .
 
-got:Peach a got:House .
-
 got:Perra_Royce a got:Person .
 
 got:Perriane_Frey a got:Female,
@@ -14196,12 +14240,8 @@ got:Petyr_Frey a got:Male,
     got:isAlive false ;
     got:popularityScore "0.177257525083612"^^xsd:float .
 
-got:Pureborn a got:House .
-
 got:Qhorwyn_Hoare a got:Male,
         got:Person .
-
-got:Queensguard a got:House .
 
 got:Ramsay_Bolton a got:Person .
 
@@ -14229,6 +14269,9 @@ got:Renly_Baratheon a got:Male,
     got:hasSpouse got:Margaery_Tyrell ;
     got:isAlive false ;
     got:popularityScore "1.0"^^xsd:float .
+
+got:Rhaegal a got:Dragon ;
+    got:hasName "Rhaegal"^^xsd:string .
 
 got:Rhaegar_Frey a got:Male,
         got:Person ;
@@ -14338,8 +14381,6 @@ got:Sallei_Paege a got:Female,
     got:isAlive true ;
     got:popularityScore "0.0802675585284281"^^xsd:float .
 
-got:Sea_watch a got:House .
-
 got:Serala a got:Female,
         got:Person ;
     got:belongsToHouse got:House_Darklyn ;
@@ -14395,7 +14436,8 @@ got:Stannis_Baratheon a got:Male,
 
 got:Stonetree a got:Person .
 
-got:Summer_Islands a got:House .
+got:Sunfyre a got:Dragon ;
+    got:hasName "Sunfyre"^^xsd:string .
 
 got:Sybell_Spicer a got:Female,
         got:Person ;
@@ -14439,6 +14481,9 @@ got:Symond_Frey a got:Male,
     got:isAlive false ;
     got:popularityScore "0.20066889632107"^^xsd:float .
 
+got:Syrax a got:Dragon ;
+    got:hasName "Syrax"^^xsd:string .
+
 got:Taena_of_Myr a got:Female,
         got:Person ;
     got:age 29 ;
@@ -14449,10 +14494,6 @@ got:Taena_of_Myr a got:Female,
     got:popularityScore "0.113712374581939"^^xsd:float .
 
 got:Teora_Kyndall a got:Person .
-
-got:The_Citadel a got:House .
-
-got:Thenn a got:House .
 
 got:Theodore_Tyrell a got:Knight,
         got:Male,
@@ -14470,10 +14511,6 @@ got:Theomar_Smallwood a got:Male,
     got:hasSpouse got:Ravella_Swann ;
     got:isAlive true ;
     got:popularityScore "0.0434782608695652"^^xsd:float .
-
-got:Thirteen a got:House .
-
-got:Three-eyed_crow a got:House .
 
 got:Titus_Peake a got:Male,
         got:Person ;
@@ -14551,8 +14588,6 @@ got:Tywin_Lannister a got:Male,
     got:isAlive false ;
     got:popularityScore "1.0"^^xsd:float .
 
-got:Undying_Ones a got:House .
-
 got:Valaena_Velaryon a got:Female,
         got:Person ;
     got:belongsToHouse got:House_Velaryon ;
@@ -14560,6 +14595,9 @@ got:Valaena_Velaryon a got:Female,
     got:hasSpouse got:Aerion_Targaryen ;
     got:isAlive true ;
     got:popularityScore "0.0802675585284281"^^xsd:float .
+
+got:Vhagar a got:Dragon ;
+    got:hasName "Vhagar"^^xsd:string .
 
 got:Victaria_Tyrell a got:Female,
         got:Person ;
@@ -14578,6 +14616,9 @@ got:Visenya_Targaryen a got:Female,
     got:hasSpouse got:Aegon_I_Targaryen ;
     got:isAlive false ;
     got:popularityScore "0.277591973244147"^^xsd:float .
+
+got:Viserion a got:Dragon ;
+    got:hasName "Viserion"^^xsd:string .
 
 got:Walter_Whent a got:Person .
 
@@ -14607,10 +14648,6 @@ got:Willam_Dustin a got:Male,
     got:hasSpouse got:Barbrey_Ryswell ;
     got:isAlive false ;
     got:popularityScore "0.0635451505016722"^^xsd:float .
-
-got:Windblown a got:House .
-
-got:Wise_Masters a got:House .
 
 got:Wylis_Manderly a got:Knight,
         got:Male,
@@ -14662,10 +14699,6 @@ got:Zhoe_Blanetree a got:Female,
     got:isAlive true ;
     got:popularityScore "0.0501672240802675"^^xsd:float .
 
-got:brotherhood_without_banners a got:House .
-
-got:wildling a got:House .
-
 got:Aegon_IV_Targaryen a got:Male,
         got:Person ;
     got:hasName "Aegon IV Targaryen"^^xsd:string ;
@@ -14709,10 +14742,6 @@ got:Amerei_Frey a got:Female,
     got:isAlive true ;
     got:popularityScore "0.237458193979933"^^xsd:float .
 
-got:Black_Ears a got:House .
-
-got:Burned_Men a got:House .
-
 got:Cassana_Estermont a got:Female,
         got:Male,
         got:Person ;
@@ -14738,6 +14767,7 @@ got:Daenerys_Targaryen a got:Female,
         got:Person ;
     got:age 21 ;
     got:belongsToHouse got:House_Targaryen ;
+    got:hasDragon got:Drogon ;
     got:hasName "Daenerys Targaryen"^^xsd:string ;
     got:hasSpouse got:Drogo ;
     got:isAlive true ;
@@ -14752,19 +14782,17 @@ got:Eddard_Stark a got:Male,
     got:isAlive false ;
     got:popularityScore "1.0"^^xsd:float .
 
-got:Faceless_Men a got:House .
-
-got:Golden_Company a got:House .
-
-got:Good_Masters a got:House .
-
 got:House_Belmore a got:House .
+
+got:House_Black_Ears a got:House .
 
 got:House_Blackberry a got:House .
 
 got:House_Blacktyde a got:House .
 
 got:House_Brune_of_Brownhollow a got:House .
+
+got:House_Burned_Men a got:House .
 
 got:House_Cerwyn a got:House .
 
@@ -14778,11 +14806,17 @@ got:House_Cuy a got:House .
 
 got:House_Dalt a got:House .
 
+got:House_Faceless_Men a got:House .
+
 got:House_Fell a got:House .
 
 got:House_Flint a got:House .
 
 got:House_Flint_of_Widows_Watch a got:House .
+
+got:House_Golden_Company a got:House .
+
+got:House_Good_Masters a got:House .
 
 got:House_Greenfield a got:House .
 
@@ -14796,11 +14830,15 @@ got:House_Hunt a got:House .
 
 got:House_Inchfield a got:House .
 
+got:House_Iron_Bank_of_Braavos a got:House .
+
 got:House_Jordayne a got:House .
 
 got:House_Kenning_of_Harlaw a got:House .
 
 got:House_Kenning_of_Kayce a got:House .
+
+got:House_Kingdom_of_the_Three_Daughters a got:House .
 
 got:House_Lonmouth a got:House .
 
@@ -14850,6 +14888,8 @@ got:House_Toyne a got:House .
 
 got:House_Uffering a got:House .
 
+got:House_Unsullied a got:House .
+
 got:House_Vaith a got:House .
 
 got:House_Wells a got:House .
@@ -14864,11 +14904,7 @@ got:House_Wythers a got:House .
 
 got:House_of_Pahl a got:House .
 
-got:Iron_Bank_of_Braavos a got:House .
-
 got:Kiera_of_Tyrosh a got:Person .
-
-got:Kingdom_of_the_Three_Daughters a got:House .
 
 got:Luthor_Tyrell a got:Male,
         got:Person ;
@@ -14891,6 +14927,7 @@ got:Rhaenys_Targaryen a got:Female,
         got:Person ;
     got:age 35 ;
     got:belongsToHouse got:House_Targaryen ;
+    got:hasDragon got:Meleys ;
     got:hasName "Rhaenys Targaryen"^^xsd:string ;
     got:hasSpouse got:Aegon_I_Targaryen ;
     got:isAlive false ;
@@ -14934,8 +14971,6 @@ got:Tyrion_Lannister a got:King,
     got:isAlive true ;
     got:popularityScore "1.0"^^xsd:float .
 
-got:Unsullied a got:House .
-
 got:Aegon_III_Targaryen a got:Male,
         got:Person ;
     got:hasFather got:Daemon_Targaryen ;
@@ -14968,6 +15003,8 @@ got:House_Locke a got:House .
 
 got:House_Marbrand a got:House .
 
+got:House_Moon_Brothers a got:House .
+
 got:House_Mooton a got:House .
 
 got:House_Morrigen a got:House .
@@ -14977,6 +15014,8 @@ got:House_Payne a got:House .
 got:House_Penrose a got:House .
 
 got:House_Piper a got:House .
+
+got:House_Rhllor a got:House .
 
 got:House_Santagar a got:House .
 
@@ -14992,6 +15031,8 @@ got:House_Stackspear a got:House .
 
 got:House_Staunton a got:House .
 
+got:House_Stormcrows a got:House .
+
 got:House_Stout a got:House .
 
 got:House_Tarly a got:House .
@@ -15002,12 +15043,9 @@ got:House_Vypren a got:House .
 
 got:House_of_Galare a got:House .
 
-got:Moon_Brothers a got:House .
-
 got:Rhaenyra_Targaryen a got:Female,
-        got:Person .
-
-got:Rhllor a got:House .
+        got:Person ;
+    got:hasDragon got:Syrax .
 
 got:Robert_Baratheon a got:Male,
         got:Person .
@@ -15021,8 +15059,6 @@ got:Rohanne_Webber a got:Female,
     got:isAlive false ;
     got:popularityScore "0.170568561872909"^^xsd:float .
 
-got:Stormcrows a got:House .
-
 got:Viserys_I_Targaryen a got:Male,
         got:Person ;
     got:hasFather got:Baelon_Targaryen ;
@@ -15033,13 +15069,12 @@ got:Viserys_I_Targaryen a got:Male,
 
 got:Aegon_I_Targaryen a got:Male,
         got:Person ;
+    got:hasDragon got:Balerion ;
     got:hasFather got:Aerion_Targaryen ;
     got:hasMother got:Valaena_Velaryon ;
     got:hasName "Aegon I Targaryen"^^xsd:string ;
     got:isAlive false ;
     got:popularityScore "1.0"^^xsd:float .
-
-got:Blacks a got:House .
 
 got:Craster a got:Male,
         got:Person ;
@@ -15051,16 +15086,17 @@ got:Daemon_Targaryen a got:Male,
         got:Person ;
     got:age 49 ;
     got:belongsToHouse got:House_Targaryen ;
+    got:hasDragon got:Caraxes ;
     got:hasName "Daemon Targaryen"^^xsd:string ;
     got:hasSpouse got:Rhea_Royce ;
     got:isAlive false ;
     got:popularityScore "0.668896321070234"^^xsd:float .
 
-got:Happy_Port a got:House .
-
 got:House_Ambrose a got:House .
 
 got:House_Baratheon_of_Kings_Landing a got:House .
+
+got:House_Blacks a got:House .
 
 got:House_Cassel a got:House .
 
@@ -15076,6 +15112,8 @@ got:House_Fossoway_of_Cider_Hall a got:House .
 
 got:House_Goodbrook a got:House .
 
+got:House_Happy_Port a got:House .
+
 got:House_Hornwood a got:House .
 
 got:House_Hunter a got:House .
@@ -15083,6 +15121,8 @@ got:House_Hunter a got:House .
 got:House_Ironmaker a got:House .
 
 got:House_Kettleblack a got:House .
+
+got:House_Kingswood_Brotherhood a got:House .
 
 got:House_Lefford a got:House .
 
@@ -15104,12 +15144,6 @@ got:House_Vance_of_Wayfarers_Rest a got:House .
 
 got:House_Yronwood a got:House .
 
-got:Kingswood_Brotherhood a got:House .
-
-got:Chatayas_brothel a got:House .
-
-got:Drowned_men a got:House .
-
 got:House_Ashford a got:House .
 
 got:House_Blackfyre a got:House .
@@ -15120,29 +15154,33 @@ got:House_Caron a got:House .
 
 got:House_Caswell a got:House .
 
+got:House_Chatayas_brothel a got:House .
+
 got:House_Connington a got:House .
 
 got:House_Crabb a got:House .
 
 got:House_Crane a got:House .
 
+got:House_Drowned_men a got:House .
+
 got:House_Glover a got:House .
 
 got:House_Hollard a got:House .
+
+got:House_Kingsguard a got:House .
 
 got:House_Norcross a got:House .
 
 got:House_Oakheart a got:House .
 
+got:House_Second_Sons a got:House .
+
 got:House_Vance_of_Atranta a got:House .
 
-got:Kingsguard a got:House .
-
-got:Second_Sons a got:House .
-
-got:Brotherhood_Without_Banners a got:House .
-
 got:House_Beesbury a got:House .
+
+got:House_Brotherhood_Without_Banners a got:House .
 
 got:House_Darry a got:House .
 
@@ -15170,7 +15208,7 @@ got:House_Umber a got:House .
 
 got:House_Webber a got:House .
 
-got:Alchemists_Guild a got:House .
+got:House_Alchemists_Guild a got:House .
 
 got:House_Baelish a got:House .
 
@@ -15217,25 +15255,21 @@ got:House_Royce a got:House .
 
 got:House_Seaworth a got:House .
 
+got:House_Stone_Crows a got:House .
+
 got:House_Waynwood a got:House .
 
 got:House_Westerling a got:House .
 
-got:Stone_Crows a got:House .
-
 got:House_Crakehall a got:House .
 
-got:Brotherhood_without_banners a got:House .
+got:House_Brotherhood_without_banners a got:House .
 
 got:House_Velaryon a got:House .
 
 got:House_Whent a got:House .
 
-got:Brave_Companions a got:House .
-
-got:House_Tully a got:House .
-
-got:House_Baratheon a got:House .
+got:House_Brave_Companions a got:House .
 
 got:House_Bolton a got:House .
 
@@ -15243,13 +15277,18 @@ got:House_Botley a got:House .
 
 got:House_Florent a got:House .
 
-got:House_Bracken a got:House .
+got:House_Tully a got:House ;
+    got:isAlliedWith got:House_Arryn .
 
-got:House_Arryn a got:House .
+got:House_Baratheon a got:House .
+
+got:House_Bracken a got:House .
 
 got:House_Hightower a got:House .
 
-got:Faith_of_the_Seven a got:House .
+got:House_Arryn a got:House .
+
+got:House_Faith_of_the_Seven a got:House .
 
 got:House_Osgrey a got:House .
 
@@ -15259,13 +15298,17 @@ got:House_Tyrell a got:House .
 
 got:House_Greyjoy a got:House .
 
-got:House_Lannister a got:House .
+got:House_Lannister a got:House ;
+    got:isAlliedWith got:House_Baratheon,
+        got:House_Tyrell .
 
-got:House_Targaryen a got:House .
+got:House_Targaryen a got:House ;
+    got:isAlliedWith got:House_Martell .
 
-got:House_Stark a got:House .
+got:House_Stark a got:House ;
+    got:isAlliedWith got:House_Tully .
 
 got:House_Frey a got:House .
 
-got:Nights_Watch a got:House .
+got:House_Nights_Watch a got:House .
 
